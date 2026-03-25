@@ -566,16 +566,16 @@
 	},
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["[+50]% Strength <vs [Armored] units> <when attacking>"],
-		"unitTypes": ["Helicopter","Anti-Air"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter", "Anti-Air"],
         "column": 23,
         "row": 1
 	},
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["[+50]% Strength <vs [Armored] units> <when attacking>"],
-		"unitTypes": ["Helicopter","Anti-Air"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter", "Anti-Air"],
         "column": 23,
         "row": 2
 	},
@@ -633,7 +633,7 @@
 	{
 		"name": "Ambush I",
 		"prerequisites": ["Shock I","Drill I","Accuracy I","Barrage I","Bombardment I","Mobility I","Anti-Armor I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[-50]% weight to this choice for AI decisions"],
+		"uniques": ["[+33]% Strength <vs [Armored] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Gunpowder","Ranged Gunpowder","Fighter","Bomber","Missile"],
         "column": 25,
         "row": 1
@@ -641,7 +641,7 @@
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units> <when attacking>"],
 		"unitTypes": ["Gunpowder","Ranged Gunpowder","Fighter","Bomber","Missile"],
         "column": 25,
         "row": 2
