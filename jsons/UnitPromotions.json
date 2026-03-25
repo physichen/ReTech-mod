@@ -539,6 +539,14 @@
         "column": 21,
         "row": 3
 	},
+	{
+		"name": "Penetrating Attack",
+		"prerequisites": ["Siege III", "Bombardment III"],
+		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Fighter", "Bomber"],
+        "column": 27,
+        "row": 4
+	},
 
 	// Helicopter
 	{
@@ -570,14 +578,6 @@
 		"unitTypes": ["Helicopter", "Anti-Air"],
         "column": 23,
         "row": 2
-	},
-	{
-		"name": "Penetrating Attack",
-		"prerequisites": ["Siege III", "Bombardment III"],
-		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Fighter", "Bomber"],
-        "column": 27,
-        "row": 4
 	},
 
 	// Mixed
