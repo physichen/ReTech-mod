@@ -1,0 +1,293 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Aerodrome
+  rotate: false
+  xy: 523, 727
+  size: 290, 290
+  orig: 290, 290
+  offset: 0, 0
+  index: -1
+BuildingIcons/Air Base
+  rotate: false
+  xy: 523, 511
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Airport
+  rotate: false
+  xy: 632, 619
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Biosphere II
+  rotate: false
+  xy: 1934, 809
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Trench
+  rotate: false
+  xy: 1110, 747
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+TechIcons/Advanced AI
+  rotate: false
+  xy: 1934, 917
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Advanced Flight
+  rotate: false
+  xy: 145, 95
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Advanced Power Cells
+  rotate: false
+  xy: 307, 265
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Cybernetics
+  rotate: false
+  xy: 631, 511
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Gun Powder
+  rotate: false
+  xy: 440, 398
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Organic Chemistry
+  rotate: false
+  xy: 523, 619
+  size: 101, 100
+  orig: 101, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Predictive Systems
+  rotate: false
+  xy: 848, 628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Smart Materials
+  rotate: false
+  xy: 956, 628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Synthetic Materials
+  rotate: false
+  xy: 307, 157
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Modern Carrier
+  rotate: false
+  xy: 1342, 683
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Modern Carrier-1
+  rotate: false
+  xy: 1486, 684
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Modern Carrier-2
+  rotate: false
+  xy: 1558, 684
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Terrorist
+  rotate: false
+  xy: 145, 6
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Terrorist-1
+  rotate: false
+  xy: 1064, 647
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Terrorist-2
+  rotate: false
+  xy: 1167, 658
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Carrier
+  rotate: false
+  xy: 253, 167
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Terrorist
+  rotate: false
+  xy: 1890, 720
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Trench
+  rotate: false
+  xy: 1702, 688
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Carrier-Information era
+  rotate: false
+  xy: 1270, 683
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Modern Carrier
+  rotate: false
+  xy: 1414, 684
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Terrorist
+  rotate: false
+  xy: 1630, 684
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+UnitIcons/Hydrogen Bomb
+  rotate: false
+  xy: 1388, 748
+  size: 269, 269
+  orig: 269, 269
+  offset: 0, 0
+  index: -1
+UnitIcons/Jet Bomber
+  rotate: false
+  xy: 548, 403
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jet Fighter
+  rotate: false
+  xy: 821, 736
+  size: 281, 281
+  orig: 281, 281
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Carrier
+  rotate: false
+  xy: 656, 403
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Piston Fighter
+  rotate: false
+  xy: 740, 619
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Reconnaissance Drone
+  rotate: false
+  xy: 307, 373
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+UnitIcons/Stealth Bomber
+  rotate: false
+  xy: 4, 203
+  size: 295, 295
+  orig: 295, 295
+  offset: 0, 0
+  index: -1
+UnitIcons/Stealth Fighter
+  rotate: false
+  xy: 4, 62
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+UnitIcons/Tactical Bomber
+  rotate: false
+  xy: 1934, 701
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Terrorist
+  rotate: false
+  xy: 1665, 756
+  size: 261, 261
+  orig: 261, 261
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Drone Air Defense
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Enhanced Mobility
+  rotate: false
+  xy: 1774, 698
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Particle Beam Siege Cannon
+  rotate: false
+  xy: 62, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Penetrating Attack
+  rotate: false
+  xy: 4, 506
+  size: 511, 511
+  orig: 511, 511
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reinforced Armor Plating
+  rotate: false
+  xy: 1832, 698
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
