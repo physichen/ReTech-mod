@@ -499,7 +499,7 @@
 	},
 	{
 		"name": "Air Targeting I",
-		"prerequisites": ["Interception I","Siege I","Bombardment I","Dogfighting I"],
+		"prerequisites": ["Siege I", "Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Fighter","Bomber","Missile"],
         "column": 20,
@@ -522,7 +522,6 @@
         "column": 21,
         "row": 2
 	},
-
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I"],
@@ -624,7 +623,7 @@
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Air Targeting II"],
+			"Bombardment III", "Coastal Raider III", "Boarding Party III", "Siege III", "Interception III", "Dogfighting III"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Sub Water","Fighter","Bomber"],
         "column": 24,
