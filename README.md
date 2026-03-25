@@ -1,2 +1,2 @@
-# Civ5.5-mod
-some update of mod based on Civ5 Gods&Kings.
+# Re-Tech-mod
+Some change of technology and units based on Civ5 Gods&Kings.
