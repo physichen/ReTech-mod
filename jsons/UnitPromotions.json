@@ -449,14 +449,6 @@
         "column": 17,
         "row": 4
 	},
-	{
-		"name": "Penetrating Attack",
-		"prerequisites": ["Siege III", "Bombardment III"],
-		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Bomber"],
-        "column": 27,
-        "row": 4
-	},
 
 	// Aircraft
 	{
@@ -579,6 +571,14 @@
         "column": 23,
         "row": 2
 	},
+	{
+		"name": "Penetrating Attack",
+		"prerequisites": ["Siege III", "Bombardment III"],
+		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Fighter", "Bomber"],
+        "column": 27,
+        "row": 4
+	},
 
 	// Mixed
 	{
@@ -684,7 +684,7 @@
 	},
 	{
 		"name": "Reinforced Armor Plating",
-		"uniques": ["[+17]% Strength <vs [Armored] units>", "Unit will heal every turn, even if it performs an action"]
+		"uniques": ["[+17]% Strength <vs [Land] units>", "Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Particle Beam Siege Cannon",
