@@ -1,2 +1,2 @@
 # Re-Tech-mod
-Some change of technology and units based on Civ5 Gods&Kings and Civ6.
+Modifications and re-balances of technologies and units based on Civ5 and Civ6.
