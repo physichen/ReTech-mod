@@ -1205,6 +1205,8 @@
 		"name": "United Nations",
 		"isWonder": true,
 		"culture": 1,
+		"science": 1,
+		"gold": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],

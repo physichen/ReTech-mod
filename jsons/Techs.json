@@ -545,7 +545,6 @@
         "name": "Pharmaceuticals",
         "row": 2,
         "prerequisites": [ "Plastics" ],
-        "uniques": [ "[+2 Gold] from every [Hospital]" ],
         "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
       },
       {
@@ -617,7 +616,7 @@
         "name": "Mobile Tactics",
         "row": 2,
         "prerequisites": [ "Ecology" ],
-        "uniques": [ "[Gunpowder] units gain the [Woodsman] promotion" ],
+        "uniques": [ "[Gunpowder] units gain the [Medic] promotion" ],
         "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
       },
       {
@@ -688,21 +687,19 @@
         "name": "Globalization",
         "row": 2,
         "prerequisites": [ "Telecommunications" ],
-        "uniques": [ "[+1 Gold] from all [Culture] buildings", "[+15]% Strength <for [non-[Air]] units> <when not at war>", "[-100]% weight to this choice for AI decisions" ],
+        "uniques": [ "[-100]% weight to this choice for AI decisions" ],
         "quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
       },
       {
         "name": "Nanotechnology",
         "row": 4,
         "prerequisites": [ "Telecommunications", "Satellites" ],
-        "uniques": [ "[+1 Gold] from all [Production] buildings" ],
         "quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
       },
       {
         "name": "Particle Physics",
         "row": 6,
         "prerequisites": [ "Satellites", "Robotics" ],
-        "uniques": [ "[+1 Gold] from all [Science] buildings" ],
         "quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
       },
 
@@ -725,8 +722,8 @@
       {
         "name": "Cybernetics",
         "row": 4,
-        "prerequisites": [ "Globalization", "Nanotechnology", "Particle Physics" ],
-        "uniques": [ "[+2 Production] from every [Research Lab]", "[-100]% weight to this choice for AI decisions" ],
+        "prerequisites": [ "Nanotechnology", "Particle Physics" ],
+        "uniques": [ "[+1 Production] from all [Science] buildings", "[-100]% weight to this choice for AI decisions" ],
         "quote": "'If there is any work in the afterlife, you must do it. Behold me whenever you are called. Be watchful at any moment to work there. Plough my fields, carry water and sand to the east and west. Behold me whenever you are called.' - Incsciription on an Egyptian Ushabti"
       },
       {
