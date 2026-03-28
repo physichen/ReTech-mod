@@ -1196,7 +1196,7 @@
     "attackSound": "shot"
   },
   {
-    "name": "Terrorist",
+    "name": "Bandit",
     "unitType": "Gunpowder",
     "uniqueTo": "Barbarians",
     "replaces": "Great War Infantry",
@@ -1205,10 +1205,10 @@
     "cost": 160,
     "requiredTech": "Replaceable Parts",
     "uniques": [
-      "Invisible to non-adjacent units",
-      "[+100]% Strength <when attacking>",
+      "[+50]% Strength <when attacking>",
       "Unable to capture cities"
     ],
+    "upgradesTo": "Infantry",
     "attackSound": "shot"
   },
   {
@@ -1280,6 +1280,22 @@
     "cost": 400,
     "requiredTech": "Plastics",
     "upgradesTo": "Mechanized Infantry",
+    "attackSound": "shot"
+  },
+  {
+    "name": "Terrorist",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Barbarians",
+    "replaces": "Infantry",
+    "movement": 3,
+    "strength": 80,
+    "cost": 200,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "[+100]% Strength <when attacking>",
+      "Unable to capture cities"
+    ],
     "attackSound": "shot"
   },
   {
@@ -1551,7 +1567,7 @@
     "strength": 90,
     "rangedStrength": 90,
     "range": 6,
-    "cost": 250,
+    "cost": 225,
     "requiredTech": "Advanced Ballistics",
     "uniques": [ "[-100]% maintenance costs" ],
     "promotions": ["Bombardment I"],
