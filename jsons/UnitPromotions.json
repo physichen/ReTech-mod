@@ -683,12 +683,12 @@
 	},
 	{
 		"name": "Reinforced Armor Plating",
-		"uniques": ["[+17]% Strength <vs [Land] units>", "Unit will heal every turn, even if it performs an action"]
+		"uniques": ["[+20]% Strength <vs [Ranged] units> <when defending>", "Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Particle Beam Siege Cannon",
 		"prerequisites": ["Drone Air Defense","Enhanced Mobility","Reinforced Armor Plating"],
-		"uniques": ["[1] additional attacks per turn", "[+50]% Strength <vs cities>", "[+33]% Strength <vs [non-air] units>"]
+		"uniques": ["[1] additional attacks per turn", "[+33]% Strength <vs cities>", "[+33]% Strength <vs [non-air] units>"]
 	},
 
 	// Uniques that should be kept on upgrades

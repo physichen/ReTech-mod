@@ -1027,6 +1027,20 @@
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
+	{
+        "name": "Panama Canal",
+        "gold": 3,
+        "culture": 1,
+        "greatPersonPoints": {"Great Merchant": 2},
+        "isWonder": true,
+        "uniques": [
+            "Must be next to [Coast]",
+            "Free [Great Merchant] appears",
+            "[+2 Gold] from [Coast] tiles [in this city]"
+        ],
+        "requiredTech": "Refining"
+    },
+
 	// Column 12
 	{
 		"name": "Research Lab",

@@ -1548,10 +1548,10 @@
     "name": "Guided Missile",
     "unitType": "Missile",
     "movement": 1,
-    "strength": 80,
-    "rangedStrength": 80,
+    "strength": 90,
+    "rangedStrength": 90,
     "range": 6,
-    "cost": 200,
+    "cost": 250,
     "requiredTech": "Advanced Ballistics",
     "uniques": [ "[-100]% maintenance costs" ],
     "promotions": ["Bombardment I"],
@@ -1658,7 +1658,7 @@
     "rangedStrength": 80,
     "range": 10,
     "cost": 350,
-    "requiredTech": "Robotics",
+    "requiredTech": "Particle Physics",
     "requiredResource": "Aluminum",
     "uniques": [ "[+6] Sight" ],
     "attackSound": "bombing"
@@ -1938,7 +1938,7 @@
     "unitType": "Civilian",
     "movement": 2,
     "cost": 750,
-    "requiredTech": "Advanced Ballistics",
+    "requiredTech": "Robotics",
     "requiredResource": "Aluminum",
     "uniques": [ "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization" ]
     // costs 1500 in BNW
