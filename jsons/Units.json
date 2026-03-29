@@ -1201,7 +1201,7 @@
     "uniqueTo": "Barbarians",
     "replaces": "Great War Infantry",
     "movement": 3,
-    "strength": 60,
+    "strength": 50,
     "cost": 160,
     "requiredTech": "Replaceable Parts",
     "uniques": [
@@ -1288,7 +1288,7 @@
     "uniqueTo": "Barbarians",
     "replaces": "Infantry",
     "movement": 3,
-    "strength": 80,
+    "strength": 70,
     "cost": 200,
     "requiredTech": "Plastics",
     "uniques": [
@@ -1675,7 +1675,6 @@
     "range": 10,
     "cost": 350,
     "requiredTech": "Particle Physics",
-    "requiredResource": "Aluminum",
     "uniques": [ "[+6] Sight" ],
     "attackSound": "bombing"
   },
