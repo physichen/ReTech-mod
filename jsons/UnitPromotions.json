@@ -500,7 +500,7 @@
 	{
 		"name": "Air Targeting I",
 		"prerequisites": ["Siege I", "Bombardment I"],
-		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
+		"uniques": ["[+40]% Strength <vs [Water] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Fighter","Bomber","Missile"],
         "column": 20,
         "row": 1
@@ -508,7 +508,7 @@
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
-		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+40]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Fighter","Bomber","Missile"],
         "column": 20,
         "row": 2
@@ -541,7 +541,7 @@
 	{
 		"name": "Penetrating Attack",
 		"prerequisites": ["Siege III", "Bombardment III"],
-		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+100]% Strength <when fighting in [Fort] tiles>", "[+100]% Strength <when fighting in [Trench] tiles>", "[+100]% Strength <when fighting in [Citadel] tiles>"],
 		"unitTypes": ["Fighter", "Bomber"],
         "column": 27,
         "row": 4
@@ -632,7 +632,7 @@
 	{
 		"name": "Ambush I",
 		"prerequisites": ["Shock I","Drill I","Accuracy I","Barrage I","Bombardment I","Mobility I","Anti-Armor I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
+		"uniques": ["[+40]% Strength <vs [Armored] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Gunpowder","Ranged Gunpowder","Fighter","Bomber","Missile"],
         "column": 25,
         "row": 1
@@ -640,7 +640,7 @@
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units> <when attacking>"],
+		"uniques": ["[+40]% Strength <vs [Armored] units> <when attacking>"],
 		"unitTypes": ["Gunpowder","Ranged Gunpowder","Fighter","Bomber","Missile"],
         "column": 25,
         "row": 2
@@ -683,12 +683,12 @@
 	},
 	{
 		"name": "Reinforced Armor Plating",
-		"uniques": ["[+20]% Strength <vs [Ranged] units> <when defending>", "Unit will heal every turn, even if it performs an action"]
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>", "Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Particle Beam Siege Cannon",
 		"prerequisites": ["Drone Air Defense","Enhanced Mobility","Reinforced Armor Plating"],
-		"uniques": ["[1] additional attacks per turn", "[+33]% Strength <vs cities>", "[+33]% Strength <vs [non-air] units>"]
+		"uniques": ["[1] additional attacks per turn", "[+50]% Strength <vs cities>", "[+50]% Strength <vs [non-air] units>"]
 	},
 
 	// Uniques that should be kept on upgrades
