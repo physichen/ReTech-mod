@@ -541,7 +541,7 @@
 	{
 		"name": "Penetrating Attack",
 		"prerequisites": ["Siege III", "Bombardment III"],
-		"uniques": ["[+100]% Strength <when fighting in [Fort] tiles>", "[+100]% Strength <when fighting in [Trench] tiles>", "[+100]% Strength <when fighting in [Citadel] tiles>"],
+		"uniques": ["[+75]% Strength <when fighting in [Fort] tiles>", "[+75]% Strength <when fighting in [Trench] tiles>", "[+75]% Strength <when fighting in [Citadel] tiles>"],
 		"unitTypes": ["Fighter", "Bomber"],
         "column": 27,
         "row": 4
