@@ -1672,7 +1672,7 @@
     "strength": 40,
     "rangedStrength": 80,
     "range": 10,
-    "cost": 350,
+    "cost": 500,
     "requiredTech": "Particle Physics",
     "uniques": [ "[+6] Sight" ],
     "attackSound": "bombing"
@@ -1805,13 +1805,13 @@
     "range": 10,
     "cost": 1000,
     "requiredTech": "Nuclear Fusion",
-    "requiredResource": "Uranium",
     "uniques": [
       "Nuclear weapon of Strength [2]",
       "Only available <if [Manhattan Project] is constructed>",
       "Cannot be purchased",
       "Blast radius [2]",
-      "[+100]% maintenance costs"
+      "[+100]% maintenance costs",
+      "Consumes [2] [Uranium]"
     ],
     "attackSound": "nuke"
   },
