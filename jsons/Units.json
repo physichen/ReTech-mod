@@ -1674,7 +1674,7 @@
     "range": 10,
     "cost": 500,
     "requiredTech": "Particle Physics",
-    "uniques": [ "[+6] Sight" ],
+    "uniques": [ "[+6] Sight", "Can see over obstacles" ],
     "attackSound": "bombing"
   },
   {
@@ -1687,7 +1687,7 @@
     "cost": 750,
     "requiredTech": "Advanced Flight",
     "requiredResource": "Oil",
-    "uniques": [ "[+4] Sight", "Cannot be carried by [Water] units", "Consumes [1] [Aluminum]" ],
+    "uniques": [ "[+4] Sight", "Can see over obstacles", "Cannot be carried by [Water] units", "Consumes [1] [Aluminum]" ],
     "attackSound": "bombing"
   },
   {
@@ -1751,6 +1751,7 @@
     "uniques": [
       "Damage taken from interception reduced by [90]%",
       "[+4] Sight",
+      "Can see over obstacles",
       "Cannot be carried by [Water] units",
       "Consumes [1] [Aluminum]"
     ],

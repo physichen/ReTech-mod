@@ -81,8 +81,7 @@
     "movementType": "Air",
     "uniques": [
       "Aircraft",
-      "[-50]% Strength <vs [Ranged] units> <when defending>",
-      "Can see over obstacles"
+      "[-50]% Strength <vs [Ranged] units> <when defending>"
     ]
   },
   {
