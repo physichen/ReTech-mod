@@ -1,348 +1,348 @@
 
 game.png
-size: 2048, 1024
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Aerodrome
   rotate: false
-  xy: 1042, 730
+  xy: 307, 217
   size: 290, 290
   orig: 290, 290
   offset: 0, 0
   index: -1
 BuildingIcons/Air Base
   rotate: false
-  xy: 1250, 622
+  xy: 645, 118
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Airport
   rotate: false
-  xy: 1250, 514
+  xy: 753, 118
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Biosphere II
   rotate: false
-  xy: 1358, 642
+  xy: 861, 118
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Panama Canal
   rotate: false
-  xy: 1042, 522
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Trench
   rotate: false
-  xy: 1340, 750
+  xy: 894, 237
   size: 270, 270
   orig: 270, 270
   offset: 0, 0
   index: -1
 TechIcons/Advanced AI
   rotate: false
-  xy: 145, 98
+  xy: 321, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced Flight
   rotate: false
-  xy: 873, 268
+  xy: 429, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Advanced Power Cells
   rotate: false
-  xy: 1887, 812
+  xy: 537, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cybernetics
   rotate: false
-  xy: 1358, 534
+  xy: 969, 129
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Gun Powder
   rotate: false
-  xy: 1466, 642
+  xy: 1077, 129
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Organic Chemistry
   rotate: false
-  xy: 1887, 920
+  xy: 212, 104
   size: 101, 100
   orig: 101, 100
   offset: 0, 0
   index: -1
 TechIcons/Predictive Systems
   rotate: false
-  xy: 361, 4
+  xy: 1509, 138
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Refining
   rotate: false
-  xy: 469, 112
+  xy: 969, 21
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Smart Materials
   rotate: false
-  xy: 469, 4
+  xy: 1077, 21
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Synthetic Materials
   rotate: false
-  xy: 577, 4
+  xy: 1185, 22
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bandit
   rotate: false
-  xy: 685, 143
+  xy: 212, 15
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bandit-1
   rotate: false
-  xy: 685, 54
+  xy: 1401, 41
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bandit-2
   rotate: false
-  xy: 788, 143
+  xy: 645, 29
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Modern Carrier
   rotate: false
-  xy: 1574, 686
+  xy: 1617, 108
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Modern Carrier-1
   rotate: false
-  xy: 1574, 558
+  xy: 1835, 177
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Modern Carrier-2
   rotate: false
-  xy: 1646, 695
+  xy: 1859, 316
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Terrorist
   rotate: false
-  xy: 788, 54
+  xy: 748, 29
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Terrorist-1
   rotate: false
-  xy: 1887, 723
+  xy: 851, 29
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Terrorist-2
   rotate: false
-  xy: 891, 179
+  xy: 1509, 49
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bandit
   rotate: false
-  xy: 1996, 992
+  xy: 1401, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Modern Carrier
   rotate: false
-  xy: 685, 18
+  xy: 1441, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Terrorist
   rotate: false
-  xy: 62, 29
+  xy: 1481, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trench
   rotate: false
-  xy: 1646, 627
+  xy: 1931, 312
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bandit
   rotate: false
-  xy: 891, 115
+  xy: 1691, 177
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Carrier-Information era
   rotate: false
-  xy: 891, 51
+  xy: 1763, 177
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Modern Carrier
   rotate: false
-  xy: 1574, 622
+  xy: 1612, 44
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Terrorist
   rotate: false
-  xy: 1718, 695
+  xy: 1851, 252
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Bandit
   rotate: false
-  xy: 4, 509
-  size: 511, 511
-  orig: 511, 511
+  xy: 1859, 380
+  size: 127, 127
+  orig: 127, 127
   offset: 0, 0
   index: -1
 UnitIcons/Hydrogen Bomb
   rotate: false
-  xy: 596, 232
+  xy: 1172, 238
   size: 269, 269
   orig: 269, 269
   offset: 0, 0
   index: -1
 UnitIcons/Jet Bomber
   rotate: false
-  xy: 1466, 534
+  xy: 1185, 130
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jet Fighter
   rotate: false
-  xy: 307, 220
+  xy: 605, 226
   size: 281, 281
   orig: 281, 281
   offset: 0, 0
   index: -1
 UnitIcons/Modern Carrier
   rotate: false
-  xy: 253, 98
+  xy: 1293, 130
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Piston Fighter
   rotate: false
-  xy: 361, 112
+  xy: 1401, 130
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Reconnaissance Drone
   rotate: false
-  xy: 873, 376
+  xy: 1718, 241
   size: 125, 125
   orig: 125, 125
   offset: 0, 0
   index: -1
 UnitIcons/Stealth Bomber
   rotate: false
-  xy: 4, 206
+  xy: 4, 212
   size: 295, 295
   orig: 295, 295
   offset: 0, 0
   index: -1
 UnitIcons/Stealth Fighter
   rotate: false
-  xy: 4, 65
+  xy: 1718, 374
   size: 133, 133
   orig: 133, 133
   offset: 0, 0
   index: -1
 UnitIcons/Tactical Bomber
   rotate: false
-  xy: 577, 112
+  xy: 1293, 22
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Terrorist
   rotate: false
-  xy: 1618, 759
+  xy: 1449, 246
   size: 261, 261
   orig: 261, 261
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Drone Air Defense
   rotate: false
-  xy: 4, 7
+  xy: 1994, 457
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Enhanced Mobility
   rotate: false
-  xy: 1790, 701
+  xy: 1994, 399
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Particle Beam Siege Cannon
   rotate: false
-  xy: 1646, 569
+  xy: 1923, 254
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Penetrating Attack
   rotate: false
-  xy: 523, 509
-  size: 511, 511
-  orig: 511, 511
+  xy: 1617, 172
+  size: 66, 66
+  orig: 66, 66
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Armor Plating
   rotate: false
-  xy: 1718, 637
+  xy: 1981, 254
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
