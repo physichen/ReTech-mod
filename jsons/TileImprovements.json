@@ -214,7 +214,7 @@
   {
     "name": "Academy",
     "terrainsCanBeBuiltOn": [ "Land" ],
-    "science": 5,
+    "science": 6,
     "uniques": [
       "Great Improvement",
       "[+2 Science] <after discovering [Scientific Theory]>",
