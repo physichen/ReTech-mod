@@ -446,13 +446,13 @@
       {
         "name": "Electricity",
         "row": 4,
-        "prerequisites": [ "Biology" ],
+        "prerequisites": [ "Biology", "Steam Power" ],
         "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
       },
       {
         "name": "Railroads",
         "row": 6,
-        "prerequisites": [ "Biology", "Steam Power" ],
+        "prerequisites": [ "Steam Power" ],
         "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
       },
       {

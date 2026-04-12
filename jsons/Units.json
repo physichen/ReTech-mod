@@ -1038,7 +1038,7 @@
     "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Replaceable Parts",
+    "obsoleteTech": "Electricity",
     "upgradesTo": "Great War Infantry",
     "attackSound": "shot"
   },
@@ -1051,7 +1051,7 @@
     "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Replaceable Parts",
+    "obsoleteTech": "Electricity",
     "upgradesTo": "Great War Infantry",
     "promotions": [ "[Norwegian Ski Infantry] ability" ],
     "attackSound": "shot"
@@ -1065,7 +1065,7 @@
     "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Replaceable Parts",
+    "obsoleteTech": "Electricity",
     "upgradesTo": "Great War Infantry",
     "promotions": [ "March" ],
     "attackSound": "shot"
@@ -1079,7 +1079,7 @@
     "strength": 35,
     "cost": 200,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Replaceable Parts",
+    "obsoleteTech": "Electricity",
     "upgradesTo": "Great War Infantry",
     "promotions": [ "Drill I", "Home Sweet Home" ],
     "attackSound": "shot"
@@ -1190,7 +1190,7 @@
     "movement": 2,
     "strength": 55,
     "cost": 320,
-    "requiredTech": "Replaceable Parts",
+    "requiredTech": "Electricity",
     "upgradesTo": "Infantry",
     "obsoleteTech": "Plastics",
     "attackSound": "shot"
@@ -1504,7 +1504,7 @@
     "name": "Anti-Tank Gun",
     "unitType": "Gunpowder",
     "movement": 2,
-    "strength": 60,
+    "strength": 65,
     "cost": 350,
     "requiredTech": "Combined Arms",
     "upgradesTo": "Helicopter Gunship",
