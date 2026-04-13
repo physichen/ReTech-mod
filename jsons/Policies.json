@@ -508,6 +508,7 @@
                 "name": "Free Speech",
                 "uniques": [
                     "[+2 Culture] from every [Wonder]", 
+                    "[+33]% spy effectiveness [in City-State cities]",
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
@@ -576,13 +577,18 @@
         "policies": [
             {
                 "name": "Populism",
-                "uniques": ["[+25]% Strength <for [Wounded] units>", "[+100]% weight to this choice for AI decisions"],
+                "uniques": [
+                    "[+25]% Strength <for [Wounded] units>",
+                    "[+100]% weight to this choice for AI decisions"],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Militarism",
-                "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
+                "uniques": [
+                    "[Gold] cost of purchasing [All] units [-33]%",
+                    "[+33]% spy effectiveness [in foreign cities]",
+                ],
                 "row": 1,
                 "column": 4
             },
@@ -600,8 +606,7 @@
                 "name": "Police State",
                 "uniques": [
                     "[+3 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[-25]% enemy spy effectiveness [in all cities]"
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]"
                 ],
                 "requires": ["Militarism"],
                 "row": 2,
@@ -663,7 +668,8 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
