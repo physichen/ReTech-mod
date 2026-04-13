@@ -505,8 +505,11 @@
         ],
         "policies": [
             {
-                "name": "Constitution",
-                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions"],
+                "name": "Free Speech",
+                "uniques": [
+                    "[+2 Culture] from every [Wonder]", 
+                    "[-100]% weight to this choice for AI decisions"
+                ],
                 "row": 1,
                 "column": 1
             },
@@ -525,9 +528,12 @@
                 "column": 5
             },
             {
-                "name": "Free Speech",
-                "uniques": ["[16] units cost no maintenance"],
-                "requires": ["Constitution"],
+                "name": "Constitution",
+                "uniques": [
+                    "[6] units cost no maintenance",
+                    "[6] free [Foreign Legion] units appear",
+                ],
+                "requires": ["Free Speech"],
                 "row": 2,
                 "column": 1
             },
@@ -632,7 +638,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+1 Happiness] [in all cities]",
+            "[+2 Happiness] from every [Monument]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -666,7 +672,6 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
                     "[-15]% maintenance cost for [all] buildings [in all cities]"
                 ],
                 "row": 2,
@@ -676,9 +681,9 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+1 Food] from every [Mine]",
-                    "[+1 Food] from every [Quarry]"
-                    "[+1 Food] from every [Manufactory]"
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
                 ],
                 "row": 3,
                 "column": 3
