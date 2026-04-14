@@ -57,6 +57,7 @@
 		"uniqueTo": "The Maya",
 		"faith": 2,
 		"science": 2,
+		"specialistSlots": {"Engineer": 1},
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
@@ -106,7 +107,7 @@
 		"uniqueTo": "China",
 		"hurryCostModifier": 25,
 		"gold": 2,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Merchant": 1},
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Writing"
 	},
@@ -308,7 +309,6 @@
 		"uniques": ["[+100]% Gold given to enemy if city is captured <in this city>"],
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -1034,9 +1034,9 @@
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
         "uniques": [
-            "Must be next to [Coast]",
             "Free [Great Merchant] appears",
-            "[+2 Gold] from [Coast] tiles [in this city]"
+            "[+2 Gold] from [Coast] tiles [in this city]",
+            "Must be next to [Coast]"
         ],
         "requiredTech": "Refining"
     },
@@ -1128,11 +1128,14 @@
 	{
 		"name": "Biosphere II",
 		"isWonder": true,
+		"culture": 2,
+		"science": 2,
+		"gold": 4,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
-			"[+2 Culture, +2 Science, +2 Gold] from [River] tiles [in this city]",
-			"[+2 Culture, +2 Science, +2 Gold] from [Jungle] tiles [in this city]", 
-			"[+2 Culture, +2 Science, +2 Gold] from [Forest] tiles [in this city]",
+			"[+1 Culture, +1 Science, +2 Gold] from [River] tiles [in this city]",
+			"[+1 Culture, +1 Science, +2 Gold] from [Jungle] tiles [in this city]", 
+			"[+1 Culture, +1 Science, +2 Gold] from [Forest] tiles [in this city]",
 			"Must be on [River]"
 		],
 		"requiredTech": "Synthetic Materials",
