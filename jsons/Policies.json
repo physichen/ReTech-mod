@@ -638,7 +638,8 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+2 Happiness] from every [Monument]",
+            "[+1 Happiness] from every [Workshop]",
+            "[+1 Happiness] from every [Factory]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
