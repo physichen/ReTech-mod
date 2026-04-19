@@ -312,6 +312,13 @@ UnitIcons/Terrorist
   orig: 261, 261
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Depth Charge
+  rotate: false
+  xy: 1617, 172
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Drone Air Defense
   rotate: false
   xy: 1994, 457
@@ -331,13 +338,6 @@ UnitPromotionIcons/Particle Beam Siege Cannon
   xy: 1923, 254
   size: 50, 50
   orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Penetrating Attack
-  rotate: false
-  xy: 1617, 172
-  size: 66, 66
-  orig: 66, 66
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Armor Plating

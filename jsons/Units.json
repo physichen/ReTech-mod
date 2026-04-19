@@ -911,7 +911,7 @@
     "cost": 150,
     "requiredTech": "Navigation",
     "upgradesTo": "Destroyer",
-    "obsoleteTech": "Ballistics",
+    "obsoleteTech": "Combustion",
     "promotions": [ "Coastal Raider I", "Coastal Raider II", "Supply" ],
     "uniques": [ "May capture killed [Water] units" ],
     "attackSound": "cannon"
@@ -1028,7 +1028,7 @@
     "cost": 225,
     "requiredTech": "Industrialization",
     "upgradesTo": "Machine Gun",
-    "obsoleteTech": "Ballistics",
+    "obsoleteTech": "Combined Arms",
     "attackSound": "machinegun"
   },
   {
@@ -1143,7 +1143,7 @@
     "requiredTech": "Steam Power",
     "requiredResource": "Coal",
     "upgradesTo": "Destroyer",
-    "obsoleteTech": "Ballistics",
+    "obsoleteTech": "Combustion",
     "uniques": [ "[+33]% Strength <vs cities>", "Double movement in [Coast]", "Never appears as a Barbarian unit" ],
     "attackSound": "shipguns"
   },
@@ -1178,7 +1178,7 @@
     "strength": 40,
     "rangedStrength": 70,
     "cost": 400,
-    "requiredTech": "Refrigeration",
+    "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "upgradesTo": "Nuclear Submarine",
     "uniques": [ "[+75]% Strength <when fighting in [Water] tiles> <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit" ],
@@ -1192,7 +1192,7 @@
     "cost": 320,
     "requiredTech": "Electricity",
     "upgradesTo": "Infantry",
-    "obsoleteTech": "Plastics",
+    "obsoleteTech": "Pharmaceuticals",
     "attackSound": "shot"
   },
   {
@@ -1203,12 +1203,14 @@
     "movement": 3,
     "strength": 50,
     "cost": 160,
-    "requiredTech": "Replaceable Parts",
+    "requiredTech": "Electricity",
+    "upgradesTo": "Infantry",
+    "obsoleteTech": "Pharmaceuticals",
     "uniques": [
       "[+50]% Strength <when attacking>",
       "Unable to capture cities"
     ],
-    "upgradesTo": "Infantry",
+
     "attackSound": "shot"
   },
   {
@@ -1219,9 +1221,9 @@
     "movement": 2,
     "strength": 55,
     "cost": 320,
-    "requiredTech": "Replaceable Parts",
+    "requiredTech": "Electricity",
     "upgradesTo": "Infantry",
-    "obsoleteTech": "Plastics",
+    "obsoleteTech": "Pharmaceuticals",
     "uniques": [ "[+20]% Strength <when fighting in [Foreign Land] tiles>" ],
     "attackSound": "shot"
   },
@@ -1252,6 +1254,8 @@
     "upgradesTo": "Piston Fighter",
     "obsoleteTech": "Radar",
     "uniques": [
+      "[+2] Sight",
+      "Can see over obstacles",
       "[50]% chance to intercept air attacks",
       "[+100]% Strength <vs [Bomber] units>",
       "[+100]% Strength <vs [Helicopter] units>"
@@ -1271,32 +1275,6 @@
     "upgradesTo": "Tactical Bomber",
     "obsoleteTech": "Radar",
     "attackSound": "bombing"
-  },
-  {
-    "name": "Infantry",
-    "unitType": "Gunpowder",
-    "movement": 2,
-    "strength": 75,
-    "cost": 400,
-    "requiredTech": "Plastics",
-    "upgradesTo": "Mechanized Infantry",
-    "attackSound": "shot"
-  },
-  {
-    "name": "Terrorist",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Barbarians",
-    "replaces": "Infantry",
-    "movement": 3,
-    "strength": 70,
-    "cost": 200,
-    "requiredTech": "Plastics",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+100]% Strength <when attacking>",
-      "Unable to capture cities"
-    ],
-    "attackSound": "shot"
   },
   {
     "name": "Carrier",
@@ -1329,17 +1307,6 @@
     // Does not actually upgrade to Missile Cruisers
   },
   {
-    "name": "Machine Gun",
-    "unitType": "Ranged Gunpowder",
-    "movement": 2,
-    "strength": 55,
-    "rangedStrength": 66,
-    "cost": 425,
-    "requiredTech": "Ballistics",
-    "attackSound": "machinegun"
-    // Upgrades to Bazooka in BNW
-  },
-  {
     "name": "Anti-Aircraft Gun",
     "unitType": "Anti-Air",
     "movement": 2,
@@ -1365,7 +1332,7 @@
     "strength": 75,
     "interceptRange": 2,
     "cost": 450,
-    "requiredTech": "Ballistics",
+    "requiredTech": "Combustion",
     "requiredResource": "Oil",
     "uniques": [
       "[75]% chance to intercept air attacks",
@@ -1378,7 +1345,32 @@
   },
 
   // Atomic Era
-
+  {
+    "name": "Infantry",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 75,
+    "cost": 400,
+    "requiredTech": "Pharmaceuticals",
+    "upgradesTo": "Mechanized Infantry",
+    "attackSound": "shot"
+  },
+  {
+    "name": "Terrorist",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Barbarians",
+    "replaces": "Infantry",
+    "movement": 3,
+    "strength": 70,
+    "cost": 200,
+    "requiredTech": "Pharmaceuticals",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "[+100]% Strength <when attacking>",
+      "Unable to capture cities"
+    ],
+    "attackSound": "shot"
+  },
   {
     "name": "Marine",
     "unitType": "Gunpowder",
@@ -1403,6 +1395,8 @@
     "requiredResource": "Oil",
     "upgradesTo": "Jet Fighter",
     "uniques": [
+      "[+4] Sight",
+      "Can see over obstacles",
       "[75]% chance to intercept air attacks",
       "[+100]% Strength <vs [Bomber] units>",
       "[+100]% Strength <vs [Helicopter] units>"
@@ -1423,6 +1417,8 @@
     "requiredTech": "Radar",
     "upgradesTo": "Jet Fighter",
     "uniques": [
+      "[+4] Sight",
+      "Can see over obstacles",
       "[75]% chance to intercept air attacks",
       "[+100]% Strength <vs [Bomber] units>",
       "[+100]% Strength <vs [Helicopter] units>"
@@ -1469,6 +1465,17 @@
     "uniques": [ "May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit" ],
     "attackSound": "shot"
     // upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+  },
+  {
+    "name": "Machine Gun",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "strength": 55,
+    "rangedStrength": 66,
+    "cost": 425,
+    "requiredTech": "Combined Arms",
+    "attackSound": "machinegun"
+    // Upgrades to Bazooka in BNW
   },
   {
     "name": "Tank",
@@ -1657,6 +1664,8 @@
     "requiredTech": "Lasers",
     "requiredResource": "Aluminum",
     "uniques": [
+      "[+4] Sight",
+      "Can see over obstacles",
       "[100]% chance to intercept air attacks",
       "[+100]% Strength <vs [Bomber] units>",
       "[+100]% Strength <vs [Helicopter] units>",
@@ -1670,7 +1679,7 @@
     "movement": 1,
     "strength": 40,
     "rangedStrength": 80,
-    "range": 10,
+    "range": 8,
     "cost": 500,
     "requiredTech": "Particle Physics",
     "uniques": [ "[+6] Sight", "Can see over obstacles" ],
@@ -1696,7 +1705,8 @@
     "strength": 100,
     "cost": 750,
     "requiredTech": "Advanced Flight",
-    "uniques": [ "[-50]% Strength <when attacking>", "Can carry [2] [Aircraft] units"], 
+    "uniques": [ "[-50]% Strength <when attacking>", "Can carry [2] [Aircraft] units"],
+    "promotions": ["Flight Deck I"],
     "attackSound": "shipguns"
   },
   {
@@ -1712,7 +1722,6 @@
       "[100]% chance to intercept air attacks",
       "Can move after attacking",
       "May travel on Water tiles without embarking",
-      "[-2] Movement <when fighting in [Water] tiles>",
       "No defensive terrain bonus",
       "Never appears as a Barbarian unit"
     ],
@@ -1731,6 +1740,8 @@
     "requiredResource": "Aluminum",
     "uniques": [
       "Damage taken from interception reduced by [90]%",
+      "[+4] Sight",
+      "Can see over obstacles",
       "[100]% chance to intercept air attacks",
       "[+100]% Strength <vs [Air] units>",
       "[+100]% Strength <vs [Helicopter] units>"

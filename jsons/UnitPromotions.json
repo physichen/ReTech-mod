@@ -442,23 +442,15 @@
         "row": 3
 	},
 	{
-		"name": "Penetrating Attack",
-		"prerequisites": ["Siege III", "Bombardment III"],
-		"uniques": ["[+100]% Strength <when fighting in [Fort] tiles>", "[+100]% Strength <when fighting in [Trench] tiles>", "[+100]% Strength <when fighting in [Citadel] tiles>"],
+		"name": "Evasion",
+		"prerequisites": ["Siege II", "Bombardment II"],
+		"uniques": ["Damage taken from interception reduced by [50]%", "[+200]% weight to this choice for AI decisions"],
 		"unitTypes": ["Bomber"],
-        "column": 27,
+        "column": 17,
         "row": 4
 	},
 
 	// Aircraft
-	{
-		"name": "Evasion",
-		"prerequisites": ["Siege II", "Bombardment II", "Dogfighting II"],
-		"uniques": ["Damage taken from interception reduced by [50]%", "[+200]% weight to this choice for AI decisions"],
-		"unitTypes": ["Fighter", "Bomber", "Missile"],
-        "column": 17,
-        "row": 4
-	},
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
@@ -540,10 +532,18 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Interception III", "Dogfighting III", "Siege III", "Bombardment III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter", "Anti-Air"],
         "column": 21,
+        "row": 4
+	},
+	{
+		"name": "Depth Charge",
+		"prerequisites": ["Ambush I", "Air Targeting I", "Bombardment II"],
+		"uniques": ["[+50]% Strength <vs [Sub Water] units> <when attacking>"],
+		"unitTypes": ["Fighter", "Bomber"],
+        "column": 27,
         "row": 3
 	},
 

@@ -71,9 +71,10 @@
     "movementType": "Air",
     "uniques": [
       "Aircraft",
-      "[+4] Sight",
-      "Can see over obstacles",
-      "Can perform Air Sweep"
+      "Can perform Air Sweep",
+      "[+50]% Strength <vs [non-air] units> <when defending>",
+      "May heal outside of friendly territory",
+      "[+15] HP when healing <in [Foreign Land] tiles>"
     ]
   },
   {
@@ -81,7 +82,9 @@
     "movementType": "Air",
     "uniques": [
       "Aircraft",
-      "[-50]% Strength <vs [Ranged] units> <when defending>"
+      "[-50]% Strength <vs [Ranged] units> <when defending>",
+      "May heal outside of friendly territory",
+      "[+15] HP when healing <in [Foreign Land] tiles>"
     ]
   },
   {

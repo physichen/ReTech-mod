@@ -424,9 +424,16 @@
       },
       {
         "name": "Dynamite",
+        "row": 7,
+        "prerequisites": [ "Rifling", "Military Science" ],
+        "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+      },
+      {
+        "name": "Refining",
         "row": 8,
         "prerequisites": [ "Military Science", "Fertilizer" ],
-        "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+        "uniques": [ "[+8 Production] from every [Ironworks]" ],
+        "quote": "'Engineering is the art of directing the great sources of power in nature for the use and convenience of man.' - Thomas Tredgold"
       }
     ]
   },
@@ -438,10 +445,16 @@
     "wonderCost": 1060,
     "techs": [
       {
-        "name": "Replaceable Parts",
+        "name": "Refrigeration",
         "row": 2,
-        "prerequisites": [ "Archaeology" ],
-        "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+        "prerequisites": [ "Archaeology" ], //todo: offshore platform should need this
+        "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+      },
+      {
+        "name": "Radio",
+        "row": 3,
+        "prerequisites": [ "Archaeology", "Biology" ],
+        "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
       },
       {
         "name": "Electricity",
@@ -450,17 +463,16 @@
         "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
       },
       {
-        "name": "Railroads",
+        "name": "Replaceable Parts",
         "row": 6,
         "prerequisites": [ "Steam Power" ],
-        "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+        "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
       },
       {
-        "name": "Refining",
+        "name": "Railroads",
         "row": 8,
-        "prerequisites": [ "Steam Power", "Dynamite" ],
-        "uniques": [ "[+8 Production] from every [Ironworks]" ],
-        "quote": "'Engineering is the art of directing the great sources of power in nature for the use and convenience of man.' - Thomas Tredgold"
+        "prerequisites": [ "Dynamite", "Refining" ],
+        "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
       }
     ]
   },
@@ -472,70 +484,43 @@
     "wonderCost": 1250,
     "techs": [
       {
-        "name": "Refrigeration",
-        "row": 2,
-        "prerequisites": [ "Replaceable Parts", "Electricity" ], //todo: offshore platform should need this
-        "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
-      },
-      {
-        "name": "Radio",
-        "row": 4,
-        "prerequisites": [ "Electricity" ],
-        "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
-      },
-      
-      {
-        "name": "Flight",
-        "row": 6,
-        "prerequisites": [ "Railroads" ],
-        "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
-      },
-      {
-        "name": "Combustion",
-        "row": 8,
-        "prerequisites": [ "Railroads", "Refining" ],
-        "uniques": [ "[+1] Movement <for [Civilian] units>" ],
-        "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
-      }
-    ]
-  },
-  {
-    "columnNumber": 13,
-    "era": "Modern era",
-    "techCost": 5000,
-    "buildingCost": 500,
-    "wonderCost": 1250,
-    "techs": [
-      {
         "name": "Plastics",
         "row": 2,
-        "prerequisites": [ "Refrigeration" ],
+        "prerequisites": [ "Refrigeration", "Radio" ],
         "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
       },
       {
         "name": "Organic Chemistry",
         "row": 4,
-        "prerequisites": [ "Refrigeration", "Radio" ],
+        "prerequisites": [ "Radio", "Electricity" ],
         "quote": "'Chemists do not usually stutter. It would be very awkward if they did, seeing that they have at times to get out such words as methylethylamylophenylium.' - Sir William Crookes"
       },
       {
-        "name": "Electronics",
+        "name": "Flight",
         "row": 6,
-        "prerequisites": [ "Radio", "Flight" ],
-        "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+        "prerequisites": [ "Electricity", "Replaceable Parts" ],
+        "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
       },
+      {
+        "name": "Combustion",
+        "row": 7,
+        "prerequisites": [ "Replaceable Parts", "Dynamite" ],
+        "uniques": [ "[+1] Movement <for [Civilian] units>" ],
+        "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+      }
       {
         "name": "Ballistics",
         "row": 8,
-        "prerequisites": [ "Flight", "Combustion" ],
+        "prerequisites": [ "Railroads" ],
         "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
       }
+      
     ]
   },
   {
-    "columnNumber": 14,
+    "columnNumber": 13,
     "era": "Atomic era",
-    "techCost": 6000,
+    "techCost": 5000,
     "buildingCost": 600,
     "wonderCost": 1500,
     "techs": [
@@ -548,14 +533,20 @@
       {
         "name": "Atomic Theory",
         "row": 4,
-        "prerequisites": [ "Organic Chemistry", "Electronics" ],
+        "prerequisites": [ "Organic Chemistry" ],
         "uniques": ["[+100]% weight to this choice for AI decisions"],
         "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
       },
       {
+        "name": "Electronics",
+        "row": 5,
+        "prerequisites": [ "Organic Chemistry", "Flight" ],
+        "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+      },
+      {
         "name": "Radar",
         "row": 6,
-        "prerequisites": [ "Electronics", "Ballistics" ],
+        "prerequisites": [ "Flight", "Combustion" ],
         "uniques": ["[+100]% weight to this choice for AI decisions"],
         "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
       },
@@ -563,15 +554,15 @@
         "name": "Combined Arms",
         "row": 8,
         //"uniques": [ "[Gunpowder] units gain the [Mobility] promotion" ],
-        "prerequisites": [ "Ballistics" ],
+        "prerequisites": [ "Combustion", "Ballistics" ],
         "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
       }
     ]
   },
   {
-    "columnNumber": 15,
+    "columnNumber": 14,
     "era": "Atomic era",
-    "techCost": 7000,
+    "techCost": 6000,
     "buildingCost": 600,
     "wonderCost": 1500,
     "techs": [
@@ -584,29 +575,28 @@
       {
         "name": "Nuclear Fission",
         "row": 4,
-        "prerequisites": [ "Atomic Theory" ],
+        "prerequisites": [ "Atomic Theory", "Electronics" ],
         "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
       },
       {
         "name": "Rocketry",
         "row": 6,
-        "prerequisites": [ "Radar" ],
+        "prerequisites": [ "Radar", "Electronics" ],
         "uniques": ["[+100]% weight to this choice for AI decisions"],
         "quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
       },
       {
-        "name": "Computers",
+        "name": "Synthetic Materials",
         "row": 8,
         "prerequisites": [ "Radar", "Combined Arms" ],
-        "uniques": [ "[+1 Science] from all [Science] buildings" ],
-        "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+        "quote": "'There may be no forgiveness for polyester. On this one matter, Satan and the Lord are in agreement.' - Joe Hill"
       }
     ]
   },
   {
-    "columnNumber": 16,
+    "columnNumber": 15,
     "era": "Atomic era",
-    "techCost": 8100,
+    "techCost": 7000,
     "buildingCost": 600,
     "wonderCost": 1500,
     "techs": [
@@ -624,17 +614,18 @@
         "quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' �? Martin Luther King Jr."
       },
       {
-        "name": "Synthetic Materials",
+        "name": "Computers",
         "row": 8,
-        "prerequisites": [ "Computers" ],
-        "quote": "'There may be no forgiveness for polyester. On this one matter, Satan and the Lord are in agreement.' - Joe Hill"
+        "prerequisites": [ "Rocketry", "Synthetic Materials" ],
+        "uniques": [ "[+1 Science] from all [Science] buildings" ],
+        "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
       }
     ]
   },
   {
-    "columnNumber": 17,
+    "columnNumber": 16,
     "era": "Information era",
-    "techCost": 9200,
+    "techCost": 8100,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -668,16 +659,16 @@
       {
         "name": "Lasers",
         "row": 8,
-        "prerequisites": [ "Advanced Ballistics", "Synthetic Materials" ],
+        "prerequisites": [ "Computers" ],
         "uniques": ["[-100]% weight to this choice for AI decisions"],
         "quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
       }
     ]
   },
   {
-    "columnNumber": 18,
+    "columnNumber": 17,
     "era": "Information era",
-    "techCost": 10500,
+    "techCost": 9200,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -711,9 +702,9 @@
     ]
   },
   {
-    "columnNumber": 19,
+    "columnNumber": 18,
     "era": "Information era",
-    "techCost": 12000,
+    "techCost": 10500,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -734,9 +725,9 @@
     ]
   },
   {
-    "columnNumber": 20,
+    "columnNumber": 19,
     "era": "Future era",
-    "techCost": 12500,
+    "techCost": 12000,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -764,9 +755,9 @@
     ]
   },
   {
-    "columnNumber": 21,
+    "columnNumber": 20,
     "era": "Future era",
-    "techCost": 12500,
+    "techCost": 12000,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -780,7 +771,7 @@
     ]
   }
   {
-    "columnNumber": 22,
+    "columnNumber": 21,
     "era": "Future era",
     "techCost": 12500,
     "buildingCost": 750,
