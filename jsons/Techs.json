@@ -426,7 +426,7 @@
         "name": "Steam Power",
         "row": 6,
         "prerequisites": [ "Industrialization", "Rifling" ],
-        "uniques": [ "[+1] Movement <for [Embarked] units>" ],
+        "uniques": [ "[+1] Movement <for [Embarked] units>", "[+1] Movement <for [Great Admiral] units>" ],
         "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
       },
       {
@@ -474,7 +474,7 @@
         "name": "Combustion",
         "row": 7,
         "prerequisites": [ "Steam Power", "Dynamite" ],
-        "uniques": [ "[+1] Movement <for [Civilian] units>" ],
+        "uniques": [ "[+1] Movement <for [Civilian] units> <in [Land] tiles>" ],
         "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
       },
       {
