@@ -365,21 +365,27 @@
     "wonderCost": 750,
     "techs": [
       {
+        "name": "Archaeology",
+        "row": 1,
+        "prerequisites": [ "Navigation" ],
+        "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+      },
+      {
         "name": "Scientific Theory",
-        "row": 2,
+        "row": 3,
         "prerequisites": [ "Navigation", "Architecture" ],
         "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
       },
       {
         "name": "Industrialization",
         "row": 5,
-        "prerequisites": [ "Architecture", "Economics", "Metallurgy" ],
+        "prerequisites": [ "Architecture", "Economics"],
         "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
       },
       {
         "name": "Rifling",
         "row": 7,
-        "prerequisites": [ "Metallurgy" ],
+        "prerequisites": [ "Economics", "Metallurgy" ],
         "quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
       },
       {
@@ -403,17 +409,18 @@
     "buildingCost": 360,
     "wonderCost": 900,
     "techs": [
-      {
-        "name": "Archaeology",
-        "row": 2,
-        "prerequisites": [ "Scientific Theory" ],
-        "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
-      },
+      
       {
         "name": "Biology",
+        "row": 2,
+        "prerequisites": [ "Scientific Theory", "Archaeology" ],
+        "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+      },
+      {
+        "name": "Electricity",
         "row": 4,
         "prerequisites": [ "Scientific Theory", "Industrialization" ],
-        "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+        "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
       },
       {
         "name": "Steam Power",
@@ -430,7 +437,7 @@
       },
       {
         "name": "Refining",
-        "row": 8,
+        "row": 9,
         "prerequisites": [ "Military Science", "Fertilizer" ],
         "uniques": [ "[+8 Production] from every [Ironworks]" ],
         "quote": "'Engineering is the art of directing the great sources of power in nature for the use and convenience of man.' - Thomas Tredgold"
@@ -447,26 +454,28 @@
       {
         "name": "Refrigeration",
         "row": 2,
-        "prerequisites": [ "Archaeology" ], //todo: offshore platform should need this
+        "prerequisites": [ "Biology" ], //todo: offshore platform should need this
         "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
       },
       {
         "name": "Radio",
         "row": 3,
-        "prerequisites": [ "Archaeology", "Biology" ],
+        "prerequisites": [ "Biology", "Electricity" ],
         "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
       },
-      {
-        "name": "Electricity",
-        "row": 4,
-        "prerequisites": [ "Biology", "Steam Power" ],
-        "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
-      },
+      
       {
         "name": "Replaceable Parts",
-        "row": 6,
-        "prerequisites": [ "Steam Power" ],
+        "row": 5,
+        "prerequisites": [ "Electricity", "Steam Power" ],
         "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+      },
+      {
+        "name": "Combustion",
+        "row": 7,
+        "prerequisites": [ "Steam Power", "Dynamite" ],
+        "uniques": [ "[+1] Movement <for [Civilian] units>" ],
+        "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
       },
       {
         "name": "Railroads",
@@ -479,7 +488,7 @@
   {
     "columnNumber": 12,
     "era": "Modern era",
-    "techCost": 4100,
+    "techCost": 4200,
     "buildingCost": 500,
     "wonderCost": 1250,
     "techs": [
@@ -492,26 +501,19 @@
       {
         "name": "Organic Chemistry",
         "row": 4,
-        "prerequisites": [ "Radio", "Electricity" ],
+        "prerequisites": [ "Radio", "Replaceable Parts" ],
         "quote": "'Chemists do not usually stutter. It would be very awkward if they did, seeing that they have at times to get out such words as methylethylamylophenylium.' - Sir William Crookes"
       },
       {
         "name": "Flight",
-        "row": 6,
-        "prerequisites": [ "Electricity", "Replaceable Parts" ],
+        "row": 5,
+        "prerequisites": [ "Replaceable Parts" ],
         "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
       },
       {
-        "name": "Combustion",
-        "row": 7,
-        "prerequisites": [ "Replaceable Parts", "Dynamite" ],
-        "uniques": [ "[+1] Movement <for [Civilian] units>" ],
-        "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
-      }
-      {
         "name": "Ballistics",
-        "row": 8,
-        "prerequisites": [ "Railroads" ],
+        "row": 7,
+        "prerequisites": [ "Replaceable Parts", "Combustion" ],
         "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
       }
       
@@ -520,7 +522,7 @@
   {
     "columnNumber": 13,
     "era": "Atomic era",
-    "techCost": 5000,
+    "techCost": 5200,
     "buildingCost": 600,
     "wonderCost": 1500,
     "techs": [
@@ -546,7 +548,7 @@
       {
         "name": "Radar",
         "row": 6,
-        "prerequisites": [ "Flight", "Combustion" ],
+        "prerequisites": [ "Flight", "Ballistics" ],
         "uniques": ["[+100]% weight to this choice for AI decisions"],
         "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
       },
@@ -554,7 +556,7 @@
         "name": "Combined Arms",
         "row": 8,
         //"uniques": [ "[Gunpowder] units gain the [Mobility] promotion" ],
-        "prerequisites": [ "Combustion", "Ballistics" ],
+        "prerequisites": [ "Ballistics", "Railroads" ],
         "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
       }
     ]
@@ -562,7 +564,7 @@
   {
     "columnNumber": 14,
     "era": "Atomic era",
-    "techCost": 6000,
+    "techCost": 6400,
     "buildingCost": 600,
     "wonderCost": 1500,
     "techs": [
@@ -596,14 +598,14 @@
   {
     "columnNumber": 15,
     "era": "Atomic era",
-    "techCost": 7000,
+    "techCost": 7600,
     "buildingCost": 600,
     "wonderCost": 1500,
     "techs": [
       {
         "name": "Mobile Tactics",
         "row": 2,
-        "prerequisites": [ "Ecology" ],
+        "prerequisites": [ "Ecology", "Nuclear Fission" ],
         "uniques": [ "[Gunpowder] units gain the [Medic] promotion" ],
         "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
       },
@@ -617,7 +619,7 @@
         "name": "Computers",
         "row": 8,
         "prerequisites": [ "Rocketry", "Synthetic Materials" ],
-        "uniques": [ "[+1 Science] from all [Science] buildings" ],
+        "uniques": [ "Science gained from research agreements [+25]%" ],
         "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
       }
     ]
@@ -625,7 +627,7 @@
   {
     "columnNumber": 16,
     "era": "Information era",
-    "techCost": 8100,
+    "techCost": 9000,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -668,7 +670,7 @@
   {
     "columnNumber": 17,
     "era": "Information era",
-    "techCost": 9200,
+    "techCost": 10400,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -704,7 +706,7 @@
   {
     "columnNumber": 18,
     "era": "Information era",
-    "techCost": 10500,
+    "techCost": 12000,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [
@@ -773,7 +775,7 @@
   {
     "columnNumber": 21,
     "era": "Future era",
-    "techCost": 12500,
+    "techCost": 12000,
     "buildingCost": 750,
     "wonderCost": 1500,
     "techs": [

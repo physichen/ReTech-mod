@@ -883,6 +883,7 @@
 	{
 		"name": "Factory",
 		"cost": 360,
+		"production": 2,
 		"specialistSlots": {"Engineer": 2},
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
@@ -951,7 +952,7 @@
         "hurryCostModifier": 10,
         "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredBuilding": "Constabulary",
-        "requiredTech": "Radio"
+        "requiredTech": "Electricity"
     },
 
 	// Modern Era
@@ -995,7 +996,7 @@
 			"[-15]% enemy spy effectiveness [in this city]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [50] per owned city"],
-        "requiredTech": "Electronics"
+        "requiredTech": "Organic Chemistry"
     },
 	{
 		"name": "Military Base",
@@ -1224,6 +1225,7 @@
 		"culture": 1,
 		"science": 1,
 		"gold": 1,
+		"faith": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],

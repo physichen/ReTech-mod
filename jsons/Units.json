@@ -911,7 +911,7 @@
     "cost": 150,
     "requiredTech": "Navigation",
     "upgradesTo": "Destroyer",
-    "obsoleteTech": "Combustion",
+    "obsoleteTech": "Ballistics",
     "promotions": [ "Coastal Raider I", "Coastal Raider II", "Supply" ],
     "uniques": [ "May capture killed [Water] units" ],
     "attackSound": "cannon"
@@ -1038,7 +1038,7 @@
     "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Electricity",
+    "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Great War Infantry",
     "attackSound": "shot"
   },
@@ -1051,7 +1051,7 @@
     "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Electricity",
+    "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Great War Infantry",
     "promotions": [ "[Norwegian Ski Infantry] ability" ],
     "attackSound": "shot"
@@ -1065,7 +1065,7 @@
     "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Electricity",
+    "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Great War Infantry",
     "promotions": [ "March" ],
     "attackSound": "shot"
@@ -1079,7 +1079,7 @@
     "strength": 35,
     "cost": 200,
     "requiredTech": "Rifling",
-    "obsoleteTech": "Electricity",
+    "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Great War Infantry",
     "promotions": [ "Drill I", "Home Sweet Home" ],
     "attackSound": "shot"
@@ -1088,7 +1088,7 @@
     "name": "Cavalry",
     "unitType": "Mounted",
     "movement": 4,
-    "strength": 36,
+    "strength": 35,
     "cost": 225,
     "requiredTech": "Military Science",
     "obsoleteTech": "Combustion",
@@ -1103,7 +1103,7 @@
     "replaces": "Cavalry",
     "uniqueTo": "Russia",
     "movement": 4,
-    "strength": 36,
+    "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
     "obsoleteTech": "Combustion",
@@ -1119,7 +1119,7 @@
     "replaces": "Cavalry",
     "uniqueTo": "Austria",
     "movement": 5,
-    "strength": 36,
+    "strength": 35,
     "cost": 225,
     "requiredTech": "Rifling",
     "obsoleteTech": "Combustion",
@@ -1143,7 +1143,7 @@
     "requiredTech": "Steam Power",
     "requiredResource": "Coal",
     "upgradesTo": "Destroyer",
-    "obsoleteTech": "Combustion",
+    "obsoleteTech": "Ballistics",
     "uniques": [ "[+33]% Strength <vs cities>", "Double movement in [Coast]", "Never appears as a Barbarian unit" ],
     "attackSound": "shipguns"
   },
@@ -1176,9 +1176,9 @@
     "unitType": "Sub Water",
     "movement": 5,
     "strength": 40,
-    "rangedStrength": 70,
+    "rangedStrength": 65,
     "cost": 400,
-    "requiredTech": "Plastics",
+    "requiredTech": "Radio",
     "requiredResource": "Oil",
     "upgradesTo": "Nuclear Submarine",
     "uniques": [ "[+75]% Strength <when fighting in [Water] tiles> <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit" ],
@@ -1190,27 +1190,9 @@
     "movement": 2,
     "strength": 55,
     "cost": 320,
-    "requiredTech": "Electricity",
+    "requiredTech": "Replaceable Parts",
     "upgradesTo": "Infantry",
     "obsoleteTech": "Pharmaceuticals",
-    "attackSound": "shot"
-  },
-  {
-    "name": "Bandit",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Barbarians",
-    "replaces": "Great War Infantry",
-    "movement": 3,
-    "strength": 50,
-    "cost": 160,
-    "requiredTech": "Electricity",
-    "upgradesTo": "Infantry",
-    "obsoleteTech": "Pharmaceuticals",
-    "uniques": [
-      "[+50]% Strength <when attacking>",
-      "Unable to capture cities"
-    ],
-
     "attackSound": "shot"
   },
   {
@@ -1221,10 +1203,28 @@
     "movement": 2,
     "strength": 55,
     "cost": 320,
-    "requiredTech": "Electricity",
+    "requiredTech": "Replaceable Parts",
     "upgradesTo": "Infantry",
     "obsoleteTech": "Pharmaceuticals",
     "uniques": [ "[+20]% Strength <when fighting in [Foreign Land] tiles>" ],
+    "attackSound": "shot"
+  },
+  {
+    "name": "Bandit",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Barbarians",
+    "replaces": "Great War Infantry",
+    "movement": 3,
+    "strength": 50,
+    "cost": 160,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Infantry",
+    "obsoleteTech": "Pharmaceuticals",
+    "uniques": [
+      "[+50]% Strength <when attacking>",
+      "Unable to capture cities"
+    ],
+
     "attackSound": "shot"
   },
   {
@@ -1277,41 +1277,11 @@
     "attackSound": "bombing"
   },
   {
-    "name": "Carrier",
-    "unitType": "Aircraft Carrier",
-    "movement": 5,
-    "strength": 50,
-    "cost": 500,
-    "requiredTech": "Electronics",
-    "upgradesTo": "Modern Carrier",
-    "obsoleteTech": "Advanced Flight",
-    "uniques": [
-      "Cannot attack",
-      "Can carry [2] [Aircraft] units",
-    ],
-    "attackSound": "shipguns"
-  },
-  {
-    "name": "Battleship",
-    "unitType": "Ranged Water",
-    "movement": 5,
-    "strength": 80,
-    "rangedStrength": 80,
-    "range": 3,
-    "cost": 550,
-    "requiredTech": "Electronics",
-    "requiredResource": "Coal",
-    "uniques": [ "Never appears as a Barbarian unit" ],
-    "promotions": [ "Indirect Fire" ],
-    "attackSound": "shipguns"
-    // Does not actually upgrade to Missile Cruisers
-  },
-  {
     "name": "Anti-Aircraft Gun",
     "unitType": "Anti-Air",
     "movement": 2,
     "interceptRange": 2,
-    "strength": 40,
+    "strength": 50,
     "cost": 320,
     "requiredTech": "Ballistics",
     "upgradesTo": "Mobile SAM",
@@ -1320,20 +1290,20 @@
       "[75]% chance to intercept air attacks",
       "[+150]% Strength <vs [Air] units>",
       "[+150]% Strength <vs [Helicopter] units>",
+      "Unable to capture cities",
       "Never appears as a Barbarian unit"
     ],
-    "promotions": [ "Anti-Armor I" ],
     "attackSound": "machinegun"
   },
   {
     "name": "Destroyer",
     "unitType": "Melee Water",
     "movement": 6,
-    "strength": 75,
+    "strength": 70,
     "interceptRange": 2,
     "cost": 450,
-    "requiredTech": "Combustion",
-    "requiredResource": "Oil",
+    "requiredTech": "Ballistics",
+    "requiredResource": "Coal",
     "uniques": [
       "[75]% chance to intercept air attacks",
       "[+100]% Damage when intercepting",
@@ -1381,6 +1351,36 @@
     "promotions": [ "Amphibious" ],
     "uniques": [ "[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>" ],
     "attackSound": "shot"
+  },
+  {
+    "name": "Carrier",
+    "unitType": "Aircraft Carrier",
+    "movement": 5,
+    "strength": 50,
+    "cost": 500,
+    "requiredTech": "Electronics",
+    "upgradesTo": "Modern Carrier",
+    "obsoleteTech": "Advanced Flight",
+    "uniques": [
+      "Cannot attack",
+      "Can carry [2] [Aircraft] units",
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Battleship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "strength": 80,
+    "rangedStrength": 80,
+    "range": 3,
+    "cost": 550,
+    "requiredTech": "Electronics",
+    "requiredResource": "Oil",
+    "uniques": [ "Never appears as a Barbarian unit" ],
+    "promotions": [ "Indirect Fire" ],
+    "attackSound": "shipguns"
+    // Does not actually upgrade to Missile Cruisers
   },
   {
     "name": "Piston Fighter",
@@ -1576,7 +1576,6 @@
     "cost": 225,
     "requiredTech": "Advanced Ballistics",
     "uniques": [ "[-100]% maintenance costs" ],
-    "promotions": ["Bombardment I"],
     "attackSound": "missile"
   },
   {
@@ -1584,16 +1583,16 @@
     "unitType": "Anti-Air",
     "movement": 3,
     "interceptRange": 2,
-    "strength": 65,
+    "strength": 70,
     "cost": 425,
     "requiredTech": "Advanced Ballistics",
     "uniques": [
       "[100]% chance to intercept air attacks",
       "[+150]% Strength <vs [Air] units>",
       "[+150]% Strength <vs [Helicopter] units>",
+      "Unable to capture cities",
       "Never appears as a Barbarian unit"
     ],
-    "promotions": [ "Interception I" ],
     "attackSound": "missile"
   },
 
