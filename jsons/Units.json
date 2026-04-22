@@ -1175,7 +1175,7 @@
     "name": "Submarine",
     "unitType": "Sub Water",
     "movement": 5,
-    "strength": 40,
+    "strength": 35,
     "rangedStrength": 65,
     "cost": 400,
     "requiredTech": "Radio",
@@ -1290,7 +1290,6 @@
       "[75]% chance to intercept air attacks",
       "[+150]% Strength <vs [Air] units>",
       "[+150]% Strength <vs [Helicopter] units>",
-      "Unable to capture cities",
       "Never appears as a Barbarian unit"
     ],
     "attackSound": "machinegun"
@@ -1590,7 +1589,6 @@
       "[100]% chance to intercept air attacks",
       "[+150]% Strength <vs [Air] units>",
       "[+150]% Strength <vs [Helicopter] units>",
-      "Unable to capture cities",
       "Never appears as a Barbarian unit"
     ],
     "attackSound": "missile"
