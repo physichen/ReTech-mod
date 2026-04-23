@@ -1224,7 +1224,6 @@
       "[+50]% Strength <when attacking>",
       "Unable to capture cities"
     ],
-
     "attackSound": "shot"
   },
   {
@@ -1410,8 +1409,8 @@
     "movement": 1,
     "strength": 60,
     "rangedStrength": 70,
-    "range": 6,
-    "interceptRange": 6,
+    "range": 8,
+    "interceptRange": 8,
     "cost": 425,
     "requiredTech": "Radar",
     "upgradesTo": "Jet Fighter",
@@ -1450,7 +1449,7 @@
     "cost": 475,
     "requiredTech": "Radar",
     "requiredResource": "Oil",
-    "promotions": [ "Evasion", "Operational Range" ],
+    "promotions": [ "Evasion" ],
     "upgradesTo": "Jet Bomber",
     "attackSound": "bombing"
   },
@@ -1702,8 +1701,7 @@
     "strength": 100,
     "cost": 750,
     "requiredTech": "Advanced Flight",
-    "uniques": [ "[-50]% Strength <when attacking>", "Can carry [2] [Aircraft] units"],
-    "promotions": ["Flight Deck I"],
+    "uniques": [ "[-50]% Strength <when attacking>", "Can carry [3] [Aircraft] units"],
     "attackSound": "shipguns"
   },
   {

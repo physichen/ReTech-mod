@@ -541,7 +541,7 @@
 	{
 		"name": "Depth Charge",
 		"prerequisites": ["Air Targeting I", "Bombardment II"],
-		"uniques": ["[+50]% Strength <vs [Sub Water] units> <when attacking>"],
+		"uniques": ["[+75]% Strength <vs [Sub Water] units> <when attacking>"],
 		"unitTypes": ["Fighter", "Bomber"],
         "column": 27,
         "row": 3
