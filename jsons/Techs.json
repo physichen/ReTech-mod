@@ -606,7 +606,7 @@
         "name": "Mobile Tactics",
         "row": 2,
         "prerequisites": [ "Ecology", "Nuclear Fission" ],
-        "uniques": [ "[Gunpowder] units gain the [Medic] promotion" ],
+        "uniques": [ "[Gunpowder] units gain the [Woodsman] promotion" ],
         "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
       },
       {
@@ -698,7 +698,7 @@
         "name": "Advanced Flight",
         "row": 8,
         "prerequisites": [ "Lasers" ],
-        "uniques": [ "[+6] Range <for [Nuclear Device] units> <in [Land] tiles>" ],
+        "uniques": [ "[+8] Range <for [Nuclear Device] units> <in [Land] tiles>" ],
         "quote": "'Sure, jets are fast and economical, but, oh my, what fun we've lost and what leisure we've sacrificed in the race of efficiency.' - Ginger Rogers"
       }
     ]

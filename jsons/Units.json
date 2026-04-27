@@ -1281,7 +1281,7 @@
     "movement": 2,
     "interceptRange": 2,
     "strength": 50,
-    "cost": 320,
+    "cost": 350,
     "requiredTech": "Ballistics",
     "upgradesTo": "Mobile SAM",
     "obsoleteTech": "Advanced Ballistics",
@@ -1393,7 +1393,7 @@
     "requiredResource": "Oil",
     "upgradesTo": "Jet Fighter",
     "uniques": [
-      "[+4] Sight",
+      "[+3] Sight",
       "Can see over obstacles",
       "[75]% chance to intercept air attacks",
       "[+100]% Strength <vs [Bomber] units>",
@@ -1415,7 +1415,7 @@
     "requiredTech": "Radar",
     "upgradesTo": "Jet Fighter",
     "uniques": [
-      "[+4] Sight",
+      "[+3] Sight",
       "Can see over obstacles",
       "[75]% chance to intercept air attacks",
       "[+100]% Strength <vs [Bomber] units>",
@@ -1449,7 +1449,7 @@
     "cost": 475,
     "requiredTech": "Radar",
     "requiredResource": "Oil",
-    "promotions": [ "Evasion" ],
+    "promotions": [ "Evasion", "Operational Range" ],
     "upgradesTo": "Jet Bomber",
     "attackSound": "bombing"
   },
@@ -1570,7 +1570,7 @@
     "movement": 1,
     "strength": 90,
     "rangedStrength": 90,
-    "range": 6,
+    "range": 8,
     "cost": 225,
     "requiredTech": "Advanced Ballistics",
     "uniques": [ "[-100]% maintenance costs" ],
@@ -1582,7 +1582,7 @@
     "movement": 3,
     "interceptRange": 2,
     "strength": 70,
-    "cost": 425,
+    "cost": 475,
     "requiredTech": "Advanced Ballistics",
     "uniques": [
       "[100]% chance to intercept air attacks",
@@ -1631,7 +1631,7 @@
       "Never appears as a Barbarian unit"
     ],
     "promotions": ["Indirect Fire"],
-    "attackSound": "shipguns"
+    "attackSound": "missile"
   },
   {
     "name": "Modern Armor",
@@ -1679,7 +1679,7 @@
     "cost": 500,
     "requiredTech": "Particle Physics",
     "uniques": [ "[+6] Sight", "Can see over obstacles" ],
-    "attackSound": "bombing"
+    "attackSound": "missile"
   },
   {
     "name": "Jet Bomber",
@@ -1687,7 +1687,7 @@
     "movement": 2,
     "strength": 70,
     "rangedStrength": 140,
-    "range": 16,
+    "range": 18,
     "cost": 750,
     "requiredTech": "Advanced Flight",
     "requiredResource": "Oil",
@@ -1712,12 +1712,12 @@
     "interceptRange": 2,
     "cost": 1000,
     "requiredTech": "Cybernetics",
-    "requiredResource": "Uranium",
     "uniques": [
       "[100]% chance to intercept air attacks",
       "Can move after attacking",
       "May travel on Water tiles without embarking",
       "No defensive terrain bonus",
+      "Consumes [2] [Uranium]",
       "Never appears as a Barbarian unit"
     ],
     "attackSound": "gdrAttack"
@@ -1741,7 +1741,7 @@
       "[+100]% Strength <vs [Air] units>",
       "[+100]% Strength <vs [Helicopter] units>"
     ],
-    "attackSound": "missile"
+    "attackSound": "jetgun"
   },
   {
     "name": "Stealth Bomber",
@@ -1749,7 +1749,7 @@
     "movement": 2,
     "strength": 65,
     "rangedStrength": 130,
-    "range": 16,
+    "range": 18,
     "cost": 750,
     "requiredTech": "Stealth",
     "requiredResource": "Oil",
@@ -1787,9 +1787,9 @@
     "name": "Nuclear Missile",
     "unitType": "Missile",
     "movement": 1,
-    "strength": 90,
-    "rangedStrength": 90,
-    "range": 10,
+    "strength": 100,
+    "rangedStrength": 100,
+    "range": 8,
     "cost": 600,
     "requiredTech": "Nuclear Fusion",
     "requiredResource": "Uranium",
