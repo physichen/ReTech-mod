@@ -1528,7 +1528,7 @@
 	    "name": "Helicopter Gunship",
 	    "unitType": "Helicopter",
 	    "movement": 6,
-	    "strength": 75,
+	    "strength": 70,
 	    "cost": 475,
 	    "requiredTech": "Synthetic Materials",
 	    "requiredResource": "Aluminum",
@@ -1546,7 +1546,7 @@
 	    "cost": 550,
 	    "requiredTech": "Mobile Tactics",
 	    "requiredResource": "Oil",
-	    "uniques": [ "Never appears as a Barbarian unit" ],
+	    "uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 	    "attackSound": "tankshot"
   	},
 	{
@@ -1588,18 +1588,6 @@
 	    "promotions": ["Indirect Fire"],
 	    "attackSound": "missile"
   	},
-	{
-		"name": "Modern Armor",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 100,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
 	{
 	    "name": "Modern Armor",
 	    "unitType": "Armored",
