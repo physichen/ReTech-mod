@@ -60,7 +60,7 @@
   {
     "name": "Sub Water",
     "movementType": "Water",
-    "uniques": [ "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Sub Water] units", "[+50]% Strength <vs [Air] units> <when defending>" ]
+    "uniques": [ "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Sub Water] units" ]
   },
   {
     "name": "Aircraft Carrier",
@@ -72,7 +72,6 @@
     "uniques": [
       "Aircraft",
       "Can perform Air Sweep",
-      "[+50]% Strength <vs [non-air] units> <when defending>",
       "May heal outside of friendly territory",
       "[+15] HP when healing <in [Foreign Land] tiles>"
     ]

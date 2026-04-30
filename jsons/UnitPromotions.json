@@ -441,14 +441,6 @@
         "column": 17,
         "row": 3
 	},
-	{
-		"name": "Evasion",
-		"prerequisites": ["Siege II", "Bombardment II"],
-		"uniques": ["Damage taken from interception reduced by [50]%", "[+200]% weight to this choice for AI decisions"],
-		"unitTypes": ["Bomber"],
-        "column": 17,
-        "row": 4
-	},
 
 	// Aircraft
 	{
@@ -499,8 +491,8 @@
 	},
 	{
 		"name": "Air Targeting I",
-		"prerequisites": ["Siege I", "Bombardment I"],
-		"uniques": ["[+40]% Strength <vs [Water] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
+		"prerequisites": ["Interception I", "Siege I", "Bombardment I", "Dogfighting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Fighter","Bomber","Missile"],
         "column": 20,
         "row": 1
@@ -508,7 +500,7 @@
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
-		"uniques": ["[+40]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Fighter","Bomber","Missile"],
         "column": 20,
         "row": 2
@@ -539,12 +531,20 @@
         "row": 4
 	},
 	{
+		"name": "Evasion",
+		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II"],
+		"uniques": ["Damage taken from interception reduced by [50]%", "[+200]% weight to this choice for AI decisions"],
+		"unitTypes": ["Fighter", "Bomber"],
+        "column": 17,
+        "row": 4
+	},
+	{
 		"name": "Depth Charge",
-		"prerequisites": ["Air Targeting I", "Bombardment II"],
+		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I"],
 		"uniques": ["[+50]% Strength <vs [Sub Water] units> <when attacking>"],
 		"unitTypes": ["Fighter", "Bomber"],
         "column": 27,
-        "row": 3
+        "row": 2
 	},
 
 	// Helicopter
