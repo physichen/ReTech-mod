@@ -1420,7 +1420,10 @@
 	    "strength": 70,
 	    "cost": 425,
 	    "requiredTech": "Radar",
-	    "uniques": [ "May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit" ],
+	    "uniques": [ 
+	    	"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>", 
+	    	"May Paradrop to [Land] tiles up to [10] tiles away <in [City center] tiles>",
+	    	"Never appears as a Barbarian unit" ],
 	    "attackSound": "shot"
 	    // upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
   	},
@@ -1735,7 +1738,7 @@
 	    "movement": 1,
 	    "strength": 90,
 	    "rangedStrength": 90,
-	    "range": 8,
+	    "range": 10,
 	    "cost": 600,
 	    "requiredTech": "Nuclear Fusion",
 	    "requiredResource": "Uranium",
