@@ -698,7 +698,7 @@
         "name": "Advanced Flight",
         "row": 8,
         "prerequisites": [ "Lasers" ],
-        "uniques": [ "[+8] Range <for [Nuclear Device] units> <in [Land] tiles>" ],
+        "uniques": [ "[+10] Range <for [Nuclear Device] units> <in [Land] tiles>" ],
         "quote": "'Sure, jets are fast and economical, but, oh my, what fun we've lost and what leisure we've sacrificed in the race of efficiency.' - Ginger Rogers"
       }
     ]
