@@ -8,7 +8,13 @@
             "Jeanne d'Arc", "Johann Tserclaes", "Khaled ibn al-Walid", "Leonidas", "Lysander", "Maurice of Nassau", 
             "Oliver Cromwell", "Pompey", "Pyrrhus", "Robert E. Lee", "Sargon", "Scipio Africanus", 
             "Sitting Bull", "Spartacus", "Subutai", "Sun Tzu", "Timur", "Vercingetorix", 
-            "William the Conqueror", "Winfield Scott", "Zhuge Liang"]
+            "William the Conqueror", "Winfield Scott", "Zhuge Liang", 
+            "Archduke Charles", "Arthur Wellesley", "André Masséna", "Bai Qi", "Douglas MacArthur", "Erich Falkenhayn", 
+            "Erich Manstein", "Gebhard von Blücher", "George Marshall", "Han Xin", "Helmuth von Moltke the Elder", "Ivan Konev", 
+            "Konstantin Rokossovsky", "John J. Pershing", "Li Jing", "Lian Po", "Lin Biao", "Louis-Nicolas Davout", 
+            "Maurice de Saxe", "Mikhail Tukhachevsky", "Peng Dehuai", "Omar Bradley", "Qi Jiguang", "Takeda Shingen", 
+            "Tokugawa Ieyasu", "Toyotomi Hideyoshi", "Turenne", "Xiang Yu", "Vasily Chuikov", "William Tecumseh Sherman", 
+            "William Slim", "Yuan Chonghuan", "Yue Fei"]
     },
     {
         "name": "Admiral",
@@ -19,7 +25,10 @@
             "Jacques Cartier", "James Cook", "John Doukas", "John Hawkins", "John Paul Jones", "Leif Ericson", 
             "Marcus Atilius Regulus", "Marcus Vipsanius Agrippa", "Matthew Perry", "Michiel de Ruyter", "Murat Reis", "Peter Wessel Tordenskjold", 
             "Phormio", "Pytheas", "Roger of Lauria", "Shi Lang", "Togo Heihachiro", "Turgut Reis", 
-            "Vasco da Gama", "Yi Sun-sin", "Zheng He", "Zinovy Rozhestvensky"]
+            "Vasco da Gama", "Yi Sun-sin", "Zheng He", "Zinovy Rozhestvensky", 
+            "C. Turner Joy", "Chen Lian", "David Porter", "Deng Shichang", "Erich Raeder", "Gaius Duilius", 
+            "Hiram Paulding", "Karl Dönitz", "Koxinga", "Mineichi Koga", "Mutsu Munemitsu", "Maarten Tromp", 
+            "Nobutake Kondō", "Oliver Hazard Perry", "Raymond Spruance", "Robert Blake", "Stephen Decatur", "Ozawa Jisaburō"]
     },
     {
         "name": "Artist",

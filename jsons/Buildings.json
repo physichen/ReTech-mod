@@ -251,7 +251,7 @@
 	},
 	{
 		"name": "Circus Maximus",
-		"cost": 125,
+		"cost": 100,
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -326,7 +326,7 @@
 	},
 	{
 		"name": "National College",
-		"cost": 125,
+		"cost": 100,
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -355,7 +355,7 @@
 	},
 	{
 		"name": "National Epic",
-		"cost": 125,
+		"cost": 100,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
@@ -417,7 +417,7 @@
 	},
 	{
 		"name": "Heroic Epic",
-		"cost": 125,
+		"cost": 100,
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
@@ -468,7 +468,7 @@
 	},
 	{
 		"name": "Grand Temple",
-		"cost": 125,
+		"cost": 100,
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [50] per owned city",
@@ -488,7 +488,7 @@
 	},
 	{
 		"name": "National Treasury",
-		"cost": 125,
+		"cost": 100,
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -571,7 +571,7 @@
 	},
 	{
 		"name": "Oxford University",
-		"cost": 125,
+		"cost": 100,
 		"science": 5,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -622,7 +622,7 @@
 	},
 	{
 		"name": "Ironworks",
-		"cost": 125,
+		"cost": 100,
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -781,7 +781,7 @@
 	},
 	{
 		"name": "Hermitage",
-		"cost": 125,
+		"cost": 100,
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
@@ -986,7 +986,7 @@
 	},
     {
         "name": "National Intelligence Agency",
-        "cost": 120,
+        "cost": 100,
         "culture": 1,
         "isNationalWonder": true,
         "uniques": ["Only available <when espionage is enabled>",
