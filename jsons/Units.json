@@ -1695,7 +1695,7 @@
 	    "strength": 70,
 	    "rangedStrength": 140,
 	    "range": 18,
-	    "cost": 750,
+	    "cost": 900,
 	    "requiredTech": "Stealth",
 	    "requiredResource": "Oil",
 	    "uniques": [
@@ -1752,7 +1752,7 @@
 	    "strength": 75,
 	    "rangedStrength": 150,
 	    "range": 10,
-	    "cost": 1000,
+	    "cost": 900,
 	    "requiredTech": "Nuclear Fusion",
 	    "uniques": [
 	    	"Nuclear weapon of Strength [2]",
