@@ -500,7 +500,7 @@
 	{
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
-		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+34]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Fighter","Bomber","Missile"],
         "column": 20,
         "row": 2
@@ -783,7 +783,7 @@
 	},
 	{
 		"name": "[Zero] ability",
-		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+		"uniques": ["[+33]% Strength <vs [Fighter] units>", "[+33]% Strength <vs [Water] units>"]
 	},
     {
         "name": "[Chu-Ko-Nu] ability",
