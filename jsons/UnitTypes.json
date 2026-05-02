@@ -71,6 +71,7 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
+            "No defensive terrain bonus",
             "Can perform Air Sweep",
             "May heal outside of friendly territory",
             "[+15] HP when healing <in [Foreign Land] tiles>"
@@ -81,6 +82,7 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
+            "No defensive terrain bonus",
             "[-50]% Strength <vs [Ranged] units> <when defending>",
             "May heal outside of friendly territory",
             "[+15] HP when healing <in [Foreign Land] tiles>"
@@ -89,7 +91,7 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
+        "uniques": ["Self-destructs when attacking", "No defensive terrain bonus"]
     },
     {
         "name": "Helicopter",
@@ -104,7 +106,7 @@
     {
         "name": "Nuclear Device",
         "movementType": "Air",
-        "uniques": [ "Aircraft", "Missile", "[-50]% Strength <vs [Ranged] units> <when defending>", "Self-destructs when attacking" ]
+        "uniques": [ "Aircraft", "Missile", "No defensive terrain bonus", "[-50]% Strength <vs [Ranged] units> <when defending>", "Self-destructs when attacking" ]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
