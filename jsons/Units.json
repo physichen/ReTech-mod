@@ -1575,7 +1575,7 @@
 	    "name": "Missile Cruiser",
 	    "unitType": "Ranged Water",
 	    "movement": 7,
-	    "strength": 70,
+	    "strength": 75,
 	    "rangedStrength": 110,
 	    "range": 3,
 	    "interceptRange": 2,
@@ -1667,9 +1667,15 @@
 	    "interceptRange": 2,
 	    "cost": 1000,
 	    "requiredTech": "Cybernetics",
-	    "requiredResource": "Uranium",
-	    "uniques": ["[100]% chance to intercept air attacks", "Can move after attacking", "May travel on Water tiles without embarking", 
-	    	"No defensive terrain bonus", "Never appears as a Barbarian unit"],
+	    "uniques": [
+	    	"[100]% chance to intercept air attacks", 
+	    	"[+1] Sight", 
+	    	"Can move after attacking", 
+	    	"No defensive terrain bonus", 
+	    	"May travel on Water tiles without embarking", 
+	    	"Consumes [2] [Uranium]", 
+	    	"Never appears as a Barbarian unit"
+	    ],
 	    "attackSound": "gdrAttack"
 	},
 	{
