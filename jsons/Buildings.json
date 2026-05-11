@@ -1065,8 +1065,9 @@
 	{
 		"name": "Aerodrome",
 		"hurryCostModifier": 0,
-		"maintenance": 1,
-		"uniques": ["Must be next to [Open terrain]", "New [Air] units start with [20] XP [in this city]", "[+5]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Open terrain]", "Comment [Enables construction of Aircraft in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Flight"
 	},
 
@@ -1171,9 +1172,9 @@
     {
 		"name": "Airport",
 		"hurryCostModifier": 0,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredBuilding": "Aerodrome",
-		"uniques": ["Must be next to [Open terrain]", "New [Air] units start with [20] XP [in this city]", "[+10]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
+		"uniques": ["New [Air] units start with [30] XP [in this city]", "[+10]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
 		"requiredTech": "Radar"
 	},
 
@@ -1235,9 +1236,9 @@
 	{
 		"name": "Air Base",
 		"hurryCostModifier": 0,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredBuilding": "Airport",
-		"uniques": ["Must be next to [Open terrain]", "New [Air] units start with [20] XP [in this city]", "[+10]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
+		"uniques": ["New [Air] units start with [30] XP [in this city]", "[+10]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
 		"requiredTech": "Lasers"
 	},
 

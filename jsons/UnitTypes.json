@@ -71,6 +71,7 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
+            "Only available <in cities with a [Aerodrome]>",
             "No defensive terrain bonus",
             "Can perform Air Sweep",
             "May heal outside of friendly territory",
@@ -82,6 +83,7 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
+            "Only available <in cities with a [Aerodrome]>",
             "No defensive terrain bonus",
             "[-50]% Strength <vs [Ranged] units> <when defending>",
             "May heal outside of friendly territory",
