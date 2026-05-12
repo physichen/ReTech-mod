@@ -1067,7 +1067,11 @@
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"uniques": [
-			"Must be next to [Open terrain]", "Comment [Enables construction of Aircraft in this city]", "Destroyed when the city is captured"],
+			"Must be next to [Open terrain]", 
+			"Comment [Enables construction of Aircraft in this city]", 
+			"[+5]% Production when constructing [Air] units [in this city] <when at war>", 
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Flight"
 	},
 
