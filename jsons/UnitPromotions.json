@@ -783,7 +783,7 @@
 	},
 	{
 		"name": "[Zero] ability",
-		"uniques": ["[+33]% Strength <vs [Fighter] units>", "[+33]% Strength <vs [Water] units>"]
+		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
     {
         "name": "[Chu-Ko-Nu] ability",
