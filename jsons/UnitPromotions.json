@@ -312,7 +312,7 @@
 	// Water Ranged
 	{
 		"name": "Targeting I",
-		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 1
@@ -320,7 +320,7 @@
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
-		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 2
@@ -328,7 +328,7 @@
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 3

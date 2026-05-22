@@ -1575,7 +1575,7 @@
 	    "name": "Missile Cruiser",
 	    "unitType": "Ranged Water",
 	    "movement": 7,
-	    "strength": 75,
+	    "strength": 80,
 	    "rangedStrength": 110,
 	    "range": 3,
 	    "interceptRange": 2,
