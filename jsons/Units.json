@@ -1278,7 +1278,7 @@
 	    "unitType": "Aircraft Carrier",
 	    "movement": 5,
 	    "strength": 60,
-	    "cost": 500,
+	    "cost": 450,
 	    "requiredTech": "Electronics",
 	    "upgradesTo": "Modern Carrier",
 	    "obsoleteTech": "Advanced Flight",
@@ -1353,7 +1353,7 @@
 	    "requiredResource": "Oil",
 	    "upgradesTo": "Jet Fighter",
 	    "uniques": [
-	      	"[+3] Sight",
+	      	"[+4] Sight",
 	      	"Can see over obstacles",
 	      	"[75]% chance to intercept air attacks",
 	      	"[+100]% Strength <vs [Bomber] units>",
@@ -1375,7 +1375,7 @@
 	    "requiredTech": "Radar",
 	    "upgradesTo": "Jet Fighter",
 	    "uniques": [
-	      	"[+3] Sight",
+	      	"[+4] Sight",
 	      	"Can see over obstacles",
 	      	"[75]% chance to intercept air attacks",
 	      	"[+100]% Strength <vs [Bomber] units>",
