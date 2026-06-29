@@ -192,7 +192,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [non-[Air]] units start with [15] XP [in this city]", "[+5]% Production when constructing [non-[Air]] units [in this city] <when at war>", "Destroyed when the city is captured"],
+		"uniques": ["New [non-[Air]] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -202,7 +202,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [non-[Air]] units start with [15] XP [in this city]", "[+5]% Production when constructing [non-[Air]] units [in this city] <when at war>",  "Destroyed when the city is captured"],
+			"New [non-[Air]] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -907,7 +907,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [non-[Air]] units start with [15] XP [in this city]", "[+10]% Production when constructing [non-[Air]] units [in this city] <when at war>", "Destroyed when the city is captured"],
+		"uniques": ["New [non-[Air]] units start with [15] XP [in this city]", "[+15]% Production when constructing [non-[Air]] units [in this city] <when at war>", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -1069,7 +1069,6 @@
 		"uniques": [
 			"Must be next to [Open terrain]", 
 			"Comment [Enables construction of Aircraft in this city]", 
-			"[+5]% Production when constructing [Air] units [in this city] <when at war>", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Flight"
@@ -1242,7 +1241,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"requiredBuilding": "Airport",
-		"uniques": ["New [Air] units start with [30] XP [in this city]", "[+10]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
+		"uniques": ["New [Air] units start with [30] XP [in this city]", "[+15]% Production when constructing [Air] units [in this city] <when at war>", "Destroyed when the city is captured"],
 		"requiredTech": "Lasers"
 	},
 
