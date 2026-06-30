@@ -1138,13 +1138,18 @@
 		"name": "Submarine",
 		"unitType": "Sub Water",
 		"movement": 5,
-		"strength": 40,
-		"rangedStrength": 60,
+		"strength": 35,
+		"rangedStrength": 65,
 		"cost": 400,
 		"requiredTech": "Plastics",
 		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when fighting in [Water] tiles> <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+75]% Strength <when fighting in [Water] tiles> <when attacking>", 
+			"Can only attack [Water] tiles", 
+			"Can move after attacking", 
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1257,7 +1262,7 @@
 	    "name": "Destroyer",
 	    "unitType": "Melee Water",
 	    "movement": 6,
-	    "strength": 60,
+	    "strength": 65,
 	    "interceptRange": 2,
 	    "cost": 400,
 	    "requiredTech": "Ballistics",
@@ -1353,7 +1358,7 @@
 	    "requiredResource": "Oil",
 	    "upgradesTo": "Jet Fighter",
 	    "uniques": [
-	      	"[+4] Sight",
+	      	"[+3] Sight",
 	      	"Can see over obstacles",
 	      	"[75]% chance to intercept air attacks",
 	      	"[+100]% Strength <vs [Bomber] units>",
@@ -1375,7 +1380,7 @@
 	    "requiredTech": "Radar",
 	    "upgradesTo": "Jet Fighter",
 	    "uniques": [
-	      	"[+4] Sight",
+	      	"[+3] Sight",
 	      	"Can see over obstacles",
 	      	"[75]% chance to intercept air attacks",
 	      	"[+100]% Strength <vs [Bomber] units>",
@@ -1551,7 +1556,7 @@
 	    "cost": 550,
 	    "requiredTech": "Mobile Tactics",
 	    "requiredResource": "Oil",
-	    "uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+	    "uniques": ["Never appears as a Barbarian unit"],
 	    "attackSound": "tankshot"
   	},
 	{
@@ -1567,6 +1572,7 @@
 	    "uniques": [
 	      	"[+75]% Strength <when fighting in [Water] tiles> <when attacking>",
 	      	"[+1] Sight",
+	      	"Can move after attacking",
 	      	"Can carry [2] [Missile] units",
 	      	"Never appears as a Barbarian unit"
 	    ],
