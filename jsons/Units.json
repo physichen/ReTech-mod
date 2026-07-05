@@ -1139,7 +1139,7 @@
 		"unitType": "Sub Water",
 		"movement": 5,
 		"strength": 35,
-		"rangedStrength": 65,
+		"rangedStrength": 55,
 		"cost": 400,
 		"requiredTech": "Plastics",
 		"requiredResource": "Oil",
@@ -1269,7 +1269,7 @@
 	    "requiredResource": "Coal",
 	    "uniques": [
 	    	"[75]% chance to intercept air attacks",
-	    	"[+75]% Strength <vs [Air] units> <when attacking>",
+	    	"[+66]% Strength <vs [Air] units> <when attacking>",
 	    	"Withdraws before melee combat <with [75]% chance>",
 	    	"Can see invisible [Sub Water] units",
 	    	"[+100]% Strength <vs [Sub Water] units>",
@@ -1300,17 +1300,18 @@
 	    "strength": 75,
 	    "rangedStrength": 75,
 	    "range": 3,
+	    "interceptRange": 2,
 	    "cost": 550,
 	    "requiredTech": "Electronics",
 	    "requiredResource": "Oil",
+	    "upgradesTo": "Missile Cruiser",
 	    "uniques": [ 
 	    	"[75]% chance to intercept air attacks",
-	    	"[+75]% Strength <vs [Air] units> <when attacking>",
+	    	"[+66]% Strength <vs [Air] units> <when attacking>",
 	    	"Never appears as a Barbarian unit" 
 	    ],
 	    "promotions": [ "Indirect Fire" ],
 	    "attackSound": "shipguns"
-	    // Does not actually upgrade to Missile Cruisers
 	},
 	{
 	    "name": "Infantry",
@@ -1568,7 +1569,7 @@
 	    "unitType": "Sub Water",
 	    "movement": 6,
 	    "strength": 65,
-	    "rangedStrength": 105,
+	    "rangedStrength": 95,
 	    "range": 3,
 	    "cost": 700,
 	    "requiredTech": "Telecommunications",
@@ -1639,8 +1640,8 @@
 	    "name": "Reconnaissance Drone",
 	    "unitType": "Bomber",
 	    "movement": 1,
-	    "strength": 40,
-	    "rangedStrength": 80,
+	    "strength": 30,
+	    "rangedStrength": 60,
 	    "range": 16,
 	    "cost": 500,
 	    "requiredTech": "Particle Physics",
