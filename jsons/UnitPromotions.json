@@ -59,9 +59,9 @@
 
 	{
 		"name": "Volley",
-		"prerequisites": ["Accuracy I","Barrage I"],
+		"prerequisites": ["Accuracy I","Barrage I","Targeting II", "Bombardment II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege"],
+		"unitTypes": ["Siege", "Ranged Water"],
         "column": 3,
         "row": 1
 	},
@@ -312,7 +312,7 @@
 	// Water Ranged
 	{
 		"name": "Targeting I",
-		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 1
@@ -320,7 +320,7 @@
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
-		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 2
@@ -328,7 +328,7 @@
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+20]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
         "row": 3
@@ -337,7 +337,7 @@
 	// Sub Water
 	{
 		"name": "Wolfpack I",
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Sub Water"],
         "column": 14,
         "row": 1
@@ -345,7 +345,7 @@
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Sub Water"],
         "column": 14,
         "row": 2
@@ -353,7 +353,7 @@
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Sub Water"],
         "column": 14,
         "row": 3
@@ -415,14 +415,6 @@
 		"unitTypes": ["Melee Water", "Ranged Water", "Aircraft Carrier"],
         "column": 16,
         "row": 4
-	},
-	{
-		"name": "Depth Charge",
-		"prerequisites": ["Targeting II", "Bombardment II", "Boarding Party II", "Coastal Raider II"],
-		"uniques": ["[+50]% Strength <vs [Sub Water] units> <when attacking>"],
-		"unitTypes": ["Melee Water", "Ranged Water"],
-        "column": 27,
-        "row": 3
 	},
 
 	// Bomber
