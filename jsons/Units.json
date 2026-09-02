@@ -1514,7 +1514,7 @@
 	    "unitType": "Anti-Air",
 	    "movement": 3,
 	    "interceptRange": 2,
-	    "strength": 60,
+	    "strength": 70,
 	    "cost": 440,
 	    "requiredTech": "Advanced Ballistics",
 	    "uniques": [
@@ -1561,7 +1561,7 @@
 	    "cost": 550,
 	    "requiredTech": "Mobile Tactics",
 	    "requiredResource": "Oil",
-	    "uniques": ["Never appears as a Barbarian unit"],
+	    "uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 	    "attackSound": "tankshot"
   	},
 	{
@@ -1569,7 +1569,7 @@
 	    "unitType": "Sub Water",
 	    "movement": 6,
 	    "strength": 65,
-	    "rangedStrength": 95,
+	    "rangedStrength": 100,
 	    "range": 3,
 	    "cost": 700,
 	    "requiredTech": "Telecommunications",
@@ -1665,8 +1665,8 @@
 	    "name": "Modern Carrier",
 	    "unitType": "Aircraft Carrier",
 	    "movement": 6,
-	    "strength": 90,
-	    "cost": 750,
+	    "strength": 100,
+	    "cost": 900,
 	    "requiredTech": "Advanced Flight",
 	    "uniques": ["[-50]% Strength <when attacking>", "Can carry [3] [Aircraft] units"],
 	    "attackSound": "shipguns"
@@ -1677,15 +1677,15 @@
 	    "movement": 6,
 	    "strength": 160,
 	    "interceptRange": 2,
-	    "cost": 1000,
+	    "cost": 1500,
 	    "requiredTech": "Cybernetics",
+	    "requiredResource": "Uranium",
 	    "uniques": [
 	    	"[100]% chance to intercept air attacks", 
 	    	"[+1] Sight", 
 	    	"Can move after attacking", 
 	    	"No defensive terrain bonus", 
 	    	"May travel on Water tiles without embarking", 
-	    	"Consumes [2] [Uranium]", 
 	    	"Never appears as a Barbarian unit"
 	    ],
 	    "attackSound": "gdrAttack"
@@ -1772,8 +1772,8 @@
 	    "name": "Hydrogen Bomb",
 	    "unitType": "Nuclear Device",
 	    "movement": 1,
-	    "strength": 65,
-	    "rangedStrength": 130,
+	    "strength": 75,
+	    "rangedStrength": 150,
 	    "range": 10,
 	    "cost": 900,
 	    "requiredTech": "Nuclear Fusion",

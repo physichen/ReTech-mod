@@ -108,7 +108,7 @@
     {
         "name": "Nuclear Device",
         "movementType": "Air",
-        "uniques": [ "Aircraft", "Missile", "No defensive terrain bonus", "[-50]% Strength <vs [Ranged] units> <when defending>", "Self-destructs when attacking" ]
+        "uniques": [ "Aircraft", "Missile", "No defensive terrain bonus", "[-60]% Strength <vs [Ranged] units> <when defending>", "Self-destructs when attacking" ]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
