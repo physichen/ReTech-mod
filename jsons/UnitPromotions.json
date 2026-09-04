@@ -165,7 +165,7 @@
 
 	{
 		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III","Mobility II","Anti-Armor II"],
+		"prerequisites": ["Shock III","Drill III","Mobility III","Anti-Armor III"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Helicopter"],
         "column": 6,
@@ -337,7 +337,7 @@
 	// Sub Water
 	{
 		"name": "Wolfpack I",
-		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Sub Water"],
         "column": 14,
         "row": 1
@@ -345,7 +345,7 @@
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Sub Water"],
         "column": 14,
         "row": 2
@@ -353,7 +353,7 @@
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["[+34]% Strength <vs [Water] units> <when attacking>"],
 		"unitTypes": ["Sub Water"],
         "column": 14,
         "row": 3
@@ -555,6 +555,14 @@
         "row": 2
 	},
 	{
+		"name": "Mobility III",
+		"prerequisites": ["Mobility II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"],
+        "column": 22,
+        "row": 3
+	},
+	{
 		"name": "Anti-Armor I",
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Helicopter", "Anti-Air"],
@@ -568,6 +576,14 @@
 		"unitTypes": ["Helicopter", "Anti-Air"],
         "column": 23,
         "row": 2
+	},
+	{
+		"name": "Anti-Armor III",
+		"prerequisites": ["Anti-Armor II"],
+		"uniques": ["[+34]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter", "Anti-Air"],
+        "column": 23,
+        "row": 3
 	},
 
 	// Mixed
@@ -591,7 +607,7 @@
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III","Mobility II","Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Armored","Helicopter","Anti-Air"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Anti-Air"],
         "column": 10,
         "row": 3
 	},
@@ -674,7 +690,7 @@
 	},
 	{
 		"name": "Reinforced Armor Plating",
-		"uniques": ["[+25]% Strength <when defending>", "Unit will heal every turn, even if it performs an action"]
+		"uniques": ["[+50]% Strength <vs [Land] units> <when defending>", "[+50]% Strength <vs [Water] units> <when defending>"]
 	},
 	{
 		"name": "Particle Beam Siege Cannon",
