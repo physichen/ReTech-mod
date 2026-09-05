@@ -1607,6 +1607,7 @@
 	    	"Can carry [4] [Missile] units",
 	    	"Never appears as a Barbarian unit"
 	    ],
+	    "promotions": [ "Indirect Fire" ],
 	    "attackSound": "missile"
   	},
 	{
