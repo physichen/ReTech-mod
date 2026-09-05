@@ -1305,6 +1305,7 @@
 	    "requiredTech": "Electronics",
 	    "requiredResource": "Oil",
 	    "upgradesTo": "Missile Cruiser",
+	    "obsoleteTech": "Robotics",
 	    "uniques": [ 
 	    	"[75]% chance to intercept air attacks",
 	    	"[+60]% Strength <vs [Air] units> <when attacking>",
@@ -1362,6 +1363,7 @@
 	    "requiredTech": "Radar",
 	    "requiredResource": "Oil",
 	    "upgradesTo": "Jet Fighter",
+	    "obsoleteTech": "Lasers",
 	    "uniques": [
 	      	"[+3] Sight",
 	      	"Can see over obstacles",
@@ -1384,6 +1386,7 @@
 	    "cost": 400,
 	    "requiredTech": "Radar",
 	    "upgradesTo": "Jet Fighter",
+	    "obsoleteTech": "Lasers",
 	    "uniques": [
 	      	"[+3] Sight",
 	      	"Can see over obstacles",
@@ -1405,6 +1408,7 @@
 	    "requiredTech": "Radar",
 	    "requiredResource": "Oil",
 	    "upgradesTo": "Jet Bomber",
+	    "obsoleteTech": "Advanced Flight",
 	    "attackSound": "bombing"
   	},
   	{
@@ -1421,6 +1425,7 @@
 	    "requiredResource": "Oil",
 	    "promotions": [ "Evasion", "Operational Range" ],
 	    "upgradesTo": "Jet Bomber",
+	    "obsoleteTech": "Advanced Flight",
 	    "attackSound": "bombing"
   	},
   	  {
